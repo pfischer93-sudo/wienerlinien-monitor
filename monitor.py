@@ -80,18 +80,26 @@ def send_push(title, message):
 
 
 # ============================================================
-# MELDUNG AUFBEREITEN
+# BETROFFENE LINIEN ERMITTELN
 # ============================================================
 
 def get_lines(info):
 
     related_lines = info.get("relatedLines", [])
 
-    return [
-        line for line in related_lines
-        if line in LINES
-    ]
+    result = []
 
+    for line in related_lines:
+
+        if line in LINES:
+            result.append(line)
+
+    return result
+
+
+# ============================================================
+# MELDUNG AUFBEREITEN
+# ============================================================
 
 def create_message(info):
 
@@ -121,6 +129,12 @@ def create_message(info):
 
 def main():
 
+    print("Wiener Linien werden abgefragt...")
+
+    # --------------------------------------------------------
+    # Aktuelle Meldungen abrufen
+    # --------------------------------------------------------
+
     current_infos = get_traffic_infos()
 
     current = {}
@@ -137,8 +151,8 @@ def main():
         if not name:
             continue
 
-        # Die ID der Meldung + relevanter Inhalt.
-        # Damit erkennen wir auch Änderungen.
+        # Alle relevanten Informationen der Meldung werden
+        # zusammengefasst. Damit erkennen wir auch Änderungen.
         fingerprint_data = {
             "name": name,
             "title": info.get("title", ""),
@@ -159,52 +173,71 @@ def main():
             "info": info
         }
 
+    print(f"Aktive relevante Meldungen: {len(current)}")
+
     # --------------------------------------------------------
     # Alten Stand laden
     # --------------------------------------------------------
 
+    first_run = not STATE_FILE.exists()
+
     if STATE_FILE.exists():
 
         try:
+
             old_state = json.loads(
                 STATE_FILE.read_text(encoding="utf-8")
             )
+
         except Exception:
+
+            print("state.json konnte nicht gelesen werden.")
             old_state = {}
 
     else:
+
         old_state = {}
 
- # --------------------------------------------------------
-# Neue / geänderte Meldungen finden
-# --------------------------------------------------------
+    # --------------------------------------------------------
+    # Neue / geänderte Meldungen finden
+    # --------------------------------------------------------
 
-changes = []
+    changes = []
 
-# Beim allerersten Lauf wird nur der aktuelle Stand gespeichert.
-# Es werden noch keine Push-Nachrichten verschickt.
+    if first_run:
 
-first_run = not STATE_FILE.exists()
+        print("Erster Lauf: Aktuellen Stand speichern.")
+        print("Es werden noch keine Push-Nachrichten verschickt.")
 
-if not first_run:
+    else:
 
-    for name, item in current.items():
+        for name, item in current.items():
 
-        if name not in old_state:
+            # Neue Meldung
+            if name not in old_state:
 
-            changes.append(
-                ("new", item["info"])
-            )
+                changes.append(
+                    ("new", item["info"])
+                )
 
-        elif old_state[name].get("fingerprint") != item["fingerprint"]:
+            # Bereits bekannte Meldung wurde verändert
+            elif old_state[name].get("fingerprint") != item["fingerprint"]:
 
-            changes.append(
-                ("changed", item["info"])
-            )
+                changes.append(
+                    ("changed", item["info"])
+                )
 
     # --------------------------------------------------------
-    # Push senden
+    # Push-Nachrichten senden
     # --------------------------------------------------------
+
+    if changes:
+
+        print(f"Neue/geänderte Meldungen: {len(changes)}")
+
+    else:
+
+        print("Keine neuen oder geänderten Meldungen.")
 
     for change_type, info in changes:
 
@@ -214,17 +247,17 @@ if not first_run:
 
         if change_type == "new":
 
-            push_title = f"🚨 Neue Störung – {line_text}"
+            push_title = f"Neue Störung – {line_text}"
 
         else:
 
-            push_title = f"🔄 Störung geändert – {line_text}"
+            push_title = f"Störung geändert – {line_text}"
 
         push_message = create_message(info)
 
+        print()
         print(push_title)
         print(push_message)
-        print()
 
         send_push(
             push_title,
@@ -235,12 +268,13 @@ if not first_run:
     # Aktuellen Stand speichern
     # --------------------------------------------------------
 
-    new_state = {
-        name: {
+    new_state = {}
+
+    for name, item in current.items():
+
+        new_state[name] = {
             "fingerprint": item["fingerprint"]
         }
-        for name, item in current.items()
-    }
 
     STATE_FILE.write_text(
         json.dumps(
@@ -251,11 +285,13 @@ if not first_run:
         encoding="utf-8"
     )
 
-    print(
-        f"Aktive Meldungen: {len(current)} | "
-        f"Neue/geänderte Meldungen: {len(changes)}"
-    )
+    print()
+    print("Aktueller Stand wurde gespeichert.")
 
+
+# ============================================================
+# START
+# ============================================================
 
 if __name__ == "__main__":
     main()
