@@ -1,0 +1,42 @@
+name: Wiener Linien Monitor
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python installieren
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Wiener Linien prüfen
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python monitor.py
+
+      - name: Aktuellen Stand speichern
+        run: |
+          git config user.name "Wiener Linien Monitor"
+          git config user.email "actions@github.com"
+
+          git add state.json
+
+          if git diff --cached --quiet; then
+            echo "Keine Änderung am Status."
+          else
+            git commit -m "Update Wiener Linien Status"
+            git push
+          fi
