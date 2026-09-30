@@ -1,7 +1,4 @@
 {
-  "I20260930-0037-F01": {
-    "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"U1\": \"ptMetro\"}}, \"description\": \"Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"name\": \"I20260930-0037-F01\", \"relatedLines\": [\"U1\"], \"time\": {\"created\": \"2026-09-30T21:17:00.000+0200\", \"end\": \"2026-09-30T23:55:00.000+0200\", \"lastUpdate\": \"2026-09-30T21:17:00.000+0200\", \"resume\": \"2026-09-30T21:17:00.000+0200\", \"start\": \"2026-09-30T21:14:00.000+0200\"}, \"title\": \"U1: Betriebsstörung\"}"
-  },
   "I20260930-0035-F01": {
     "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"U3\": \"ptMetro\"}}, \"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"name\": \"I20260930-0035-F01\", \"relatedLines\": [\"U3\"], \"time\": {\"created\": \"2026-09-30T21:01:00.000+0200\", \"end\": \"2026-09-30T23:55:00.000+0200\", \"lastUpdate\": \"2026-09-30T21:01:00.000+0200\", \"resume\": \"2026-09-30T21:01:00.000+0200\", \"start\": \"2026-09-30T21:00:00.000+0200\"}, \"title\": \"U3: Polizeieinsatz\"}"
   },
