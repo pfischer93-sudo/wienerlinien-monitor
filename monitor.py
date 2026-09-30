@@ -68,7 +68,7 @@ def send_push(title, message):
         data=message.encode("utf-8"),
         method="POST",
         headers={
-            "Title": title,
+            "Title": "Wiener Linien",
             "Priority": "high",
             "Tags": "rotating_light"
         }
