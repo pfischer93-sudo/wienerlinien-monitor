@@ -175,11 +175,18 @@ def main():
     else:
         old_state = {}
 
-    # --------------------------------------------------------
-    # Neue / geänderte Meldungen finden
-    # --------------------------------------------------------
+ # --------------------------------------------------------
+# Neue / geänderte Meldungen finden
+# --------------------------------------------------------
 
-    changes = []
+changes = []
+
+# Beim allerersten Lauf wird nur der aktuelle Stand gespeichert.
+# Es werden noch keine Push-Nachrichten verschickt.
+
+first_run = not STATE_FILE.exists()
+
+if not first_run:
 
     for name, item in current.items():
 
