@@ -5,9 +5,6 @@
   "I20261001-0021-F02": {
     "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"71\": \"ptTram\"}}, \"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"name\": \"I20261001-0021-F02\", \"relatedLines\": [\"71\"], \"time\": {\"created\": \"2026-10-01T12:25:00.000+0200\", \"end\": \"2026-10-01T23:55:00.000+0200\", \"lastUpdate\": \"2026-10-01T12:25:00.000+0200\", \"resume\": \"2026-10-01T12:25:00.000+0200\", \"start\": \"2026-10-01T12:20:00.000+0200\"}, \"title\": \"71: Rettungseinsatz\"}"
   },
-  "I20261001-0023-F01": {
-    "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"U3\": \"ptMetro\"}}, \"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"name\": \"I20261001-0023-F01\", \"relatedLines\": [\"U3\"], \"time\": {\"created\": \"2026-10-01T12:54:00.000+0200\", \"end\": \"2026-10-01T23:55:00.000+0200\", \"lastUpdate\": \"2026-10-01T12:54:00.000+0200\", \"resume\": \"2026-10-01T12:54:00.000+0200\", \"start\": \"2026-10-01T12:34:00.000+0200\"}, \"title\": \"U3: Rettungseinsatz\"}"
-  },
   "I20260925-0011": {
     "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"26E\": \"ptTram\"}}, \"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"name\": \"I20260925-0011\", \"relatedLines\": [\"26E\"], \"time\": {\"created\": \"2026-09-25T09:29:00.000+0200\", \"end\": \"2026-12-12T23:55:00.000+0100\", \"lastUpdate\": \"2026-09-26T13:51:00.000+0200\", \"start\": \"2026-09-25T08:55:00.000+0200\"}, \"title\": \"26E: Gleisbauarbeiten\"}"
   },
@@ -16,9 +13,6 @@
   },
   "I20261001-0024": {
     "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"U1\": \"ptMetro\"}}, \"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.\", \"name\": \"I20261001-0024\", \"relatedLines\": [\"U1\"], \"time\": {\"created\": \"2026-10-01T13:01:00.000+0200\", \"end\": \"2026-10-01T23:55:00.000+0200\", \"lastUpdate\": \"2026-10-01T13:01:00.000+0200\", \"resume\": \"2026-10-01T13:00:00.000+0200\", \"start\": \"2026-10-01T13:00:00.000+0200\"}, \"title\": \"U1: Verspätungen\"}"
-  },
-  "R2372-627": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten auf\\nHauptfahrbahn\", \"name\": \"R2372-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten auf\\nHauptfahrbahn\"}"
   },
   "R2378-627": {
     "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten\\nSatzingerweg 41\", \"name\": \"R2378-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten\\nSatzingerweg 41\"}"
@@ -59,13 +53,13 @@
   "R2345-127": {
     "fingerprint": "{\"attributes\": {}, \"description\": \"Züge halten bei\\nLinie 31\", \"name\": \"R2345-127\", \"relatedLines\": [\"27\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Züge halten bei\\nLinie 31\"}"
   },
-  "R1508-426": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\", \"name\": \"R1508-426\", \"relatedLines\": [\"26A\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:16.000+0200\"}, \"title\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\"}"
+  "R2372-627": {
+    "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten auf\\nHauptfahrbahn\", \"name\": \"R2372-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten auf\\nHauptfahrbahn\"}"
   },
   "R2558-125": {
     "fingerprint": "{\"attributes\": {}, \"description\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\", \"name\": \"R2558-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:16.000+0200\"}, \"title\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\"}"
   },
-  "R2036-111": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Rettungseinsatz\\nEinstieg bei Linie 15A\", \"name\": \"R2036-111\", \"relatedLines\": [\"11\"], \"time\": {\"end\": \"2026-10-01T13:24:00.000+0200\", \"start\": \"2026-10-01T12:24:28.000+0200\"}, \"title\": \"Rettungseinsatz\\nEinstieg bei Linie 15A\"}"
+  "R1508-426": {
+    "fingerprint": "{\"attributes\": {}, \"description\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\", \"name\": \"R1508-426\", \"relatedLines\": [\"26A\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:16.000+0200\"}, \"title\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\"}"
   }
 }
