@@ -1,59 +1,44 @@
 {
-  "I20261001-0031": {
-    "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"U3\": \"ptMetro\"}}, \"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.\", \"name\": \"I20261001-0031\", \"relatedLines\": [\"U3\"], \"time\": {\"created\": \"2026-10-01T15:46:00.000+0200\", \"end\": \"2026-10-01T23:55:00.000+0200\", \"lastUpdate\": \"2026-10-01T15:46:00.000+0200\", \"resume\": \"2026-10-01T15:45:00.000+0200\", \"start\": \"2026-10-01T15:45:00.000+0200\"}, \"title\": \"U3: Verspätungen\"}"
-  },
-  "I20260925-0011": {
-    "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"26E\": \"ptTram\"}}, \"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"name\": \"I20260925-0011\", \"relatedLines\": [\"26E\"], \"time\": {\"created\": \"2026-09-25T09:29:00.000+0200\", \"end\": \"2026-12-12T23:55:00.000+0100\", \"lastUpdate\": \"2026-09-26T13:51:00.000+0200\", \"start\": \"2026-09-25T08:55:00.000+0200\"}, \"title\": \"26E: Gleisbauarbeiten\"}"
-  },
-  "I20260909-0007": {
-    "fingerprint": "{\"attributes\": {\"relatedLineTypes\": {\"25\": \"ptTram\", \"26\": \"ptTram\", \"27\": \"ptTram\"}}, \"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"name\": \"I20260909-0007\", \"relatedLines\": [\"25\", \"26\", \"27\"], \"time\": {\"created\": \"2026-09-09T10:09:00.000+0200\", \"end\": \"2026-12-12T02:00:00.000+0100\", \"lastUpdate\": \"2026-09-29T13:24:00.000+0200\", \"start\": \"2026-09-14T04:30:00.000+0200\"}, \"title\": \"25, 26, 27: Gleisbauarbeiten\"}"
-  },
-  "R2378-627": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten\\nSatzingerweg 41\", \"name\": \"R2378-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten\\nSatzingerweg 41\"}"
-  },
-  "R2343-626": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Ersatzbus\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\", \"name\": \"R2343-626\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Ersatzbus\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\"}"
-  },
-  "R2343-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\", \"name\": \"R2343-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\"}"
-  },
-  "R2359-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Ersatzbus 26E\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\", \"name\": \"R2359-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Ersatzbus 26E\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\"}"
-  },
-  "R2370-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\", \"name\": \"R2370-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\"}"
-  },
-  "R2371-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\", \"name\": \"R2371-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\"}"
-  },
-  "R2372-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\", \"name\": \"R2372-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\"}"
-  },
-  "R2373-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Züge halten\\nDonaufelder Straße 175-177\", \"name\": \"R2373-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Züge halten\\nDonaufelder Straße 175-177\"}"
-  },
-  "R2373-127": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Linie 25 in\\nTokiostraße benützen\", \"name\": \"R2373-127\", \"relatedLines\": [\"27\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Linie 25 in\\nTokiostraße benützen\"}"
-  },
-  "R2373-126": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Züge halten in\\nTokiostraße\", \"name\": \"R2373-126\", \"relatedLines\": [\"26\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Züge halten in\\nTokiostraße\"}"
-  },
-  "R2379-627": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten\\nBessemerstraße 1-3\", \"name\": \"R2379-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten\\nBessemerstraße 1-3\"}"
-  },
-  "R2380-627": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten\\nHoßplatz 11\", \"name\": \"R2380-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten\\nHoßplatz 11\"}"
-  },
-  "R2345-127": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Züge halten bei\\nLinie 31\", \"name\": \"R2345-127\", \"relatedLines\": [\"27\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Züge halten bei\\nLinie 31\"}"
-  },
-  "R2372-627": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Busse halten auf\\nHauptfahrbahn\", \"name\": \"R2372-627\", \"relatedLines\": [\"26E\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:14.000+0200\"}, \"title\": \"Busse halten auf\\nHauptfahrbahn\"}"
-  },
-  "R2558-125": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\", \"name\": \"R2558-125\", \"relatedLines\": [\"25\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:16.000+0200\"}, \"title\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\"}"
-  },
-  "R1508-426": {
-    "fingerprint": "{\"attributes\": {}, \"description\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\", \"name\": \"R1508-426\", \"relatedLines\": [\"26A\"], \"time\": {\"end\": \"2026-10-01T23:59:59.000+0200\", \"start\": \"2026-10-01T00:00:16.000+0200\"}, \"title\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\"}"
+  "version": 2,
+  "groups": {
+    "{\"description\": \"Busse halten\\nSatzingerweg 41\", \"title\": \"Busse halten\\nSatzingerweg 41\"}": {
+      "fingerprint": "{\"description\": \"Busse halten\\nSatzingerweg 41\", \"lastupdate\": \"\", \"lines\": [\"26E\"], \"title\": \"Busse halten\\nSatzingerweg 41\"}"
+    },
+    "{\"description\": \"Ersatzbus\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\", \"title\": \"Ersatzbus\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\"}": {
+      "fingerprint": "{\"description\": \"Ersatzbus\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\", \"lastupdate\": \"\", \"lines\": [\"26E\"], \"title\": \"Ersatzbus\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\"}"
+    },
+    "{\"description\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\", \"title\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\"}": {
+      "fingerprint": "{\"description\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\", \"lastupdate\": \"\", \"lines\": [\"25\"], \"title\": \"Linien 25 und 26\\nBetrieb ab Josef-Baumann-Gasse\"}"
+    },
+    "{\"description\": \"Ersatzbus 26E\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\", \"title\": \"Ersatzbus 26E\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\"}": {
+      "fingerprint": "{\"description\": \"Ersatzbus 26E\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\", \"lastupdate\": \"\", \"lines\": [\"25\"], \"title\": \"Ersatzbus 26E\\nhält Karl-Waldbrunner-Platz vor Schloßhofer Straße\"}"
+    },
+    "{\"description\": \"Züge halten\\nDonaufelder Straße 175-177\", \"title\": \"Züge halten\\nDonaufelder Straße 175-177\"}": {
+      "fingerprint": "{\"description\": \"Züge halten\\nDonaufelder Straße 175-177\", \"lastupdate\": \"\", \"lines\": [\"25\"], \"title\": \"Züge halten\\nDonaufelder Straße 175-177\"}"
+    },
+    "{\"description\": \"Linie 25 in\\nTokiostraße benützen\", \"title\": \"Linie 25 in\\nTokiostraße benützen\"}": {
+      "fingerprint": "{\"description\": \"Linie 25 in\\nTokiostraße benützen\", \"lastupdate\": \"\", \"lines\": [\"27\"], \"title\": \"Linie 25 in\\nTokiostraße benützen\"}"
+    },
+    "{\"description\": \"Züge halten in\\nTokiostraße\", \"title\": \"Züge halten in\\nTokiostraße\"}": {
+      "fingerprint": "{\"description\": \"Züge halten in\\nTokiostraße\", \"lastupdate\": \"\", \"lines\": [\"26\"], \"title\": \"Züge halten in\\nTokiostraße\"}"
+    },
+    "{\"description\": \"Busse halten\\nBessemerstraße 1-3\", \"title\": \"Busse halten\\nBessemerstraße 1-3\"}": {
+      "fingerprint": "{\"description\": \"Busse halten\\nBessemerstraße 1-3\", \"lastupdate\": \"\", \"lines\": [\"26E\"], \"title\": \"Busse halten\\nBessemerstraße 1-3\"}"
+    },
+    "{\"description\": \"Busse halten\\nHoßplatz 11\", \"title\": \"Busse halten\\nHoßplatz 11\"}": {
+      "fingerprint": "{\"description\": \"Busse halten\\nHoßplatz 11\", \"lastupdate\": \"\", \"lines\": [\"26E\"], \"title\": \"Busse halten\\nHoßplatz 11\"}"
+    },
+    "{\"description\": \"Züge halten bei\\nLinie 31\", \"title\": \"Züge halten bei\\nLinie 31\"}": {
+      "fingerprint": "{\"description\": \"Züge halten bei\\nLinie 31\", \"lastupdate\": \"\", \"lines\": [\"27\"], \"title\": \"Züge halten bei\\nLinie 31\"}"
+    },
+    "{\"description\": \"Busse halten auf\\nHauptfahrbahn\", \"title\": \"Busse halten auf\\nHauptfahrbahn\"}": {
+      "fingerprint": "{\"description\": \"Busse halten auf\\nHauptfahrbahn\", \"lastupdate\": \"\", \"lines\": [\"26E\"], \"title\": \"Busse halten auf\\nHauptfahrbahn\"}"
+    },
+    "{\"description\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\", \"title\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\"}": {
+      "fingerprint": "{\"description\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\", \"lastupdate\": \"\", \"lines\": [\"25\"], \"title\": \"Gleisbauarbeiten\\nLinie 26E hält Donaufelder Straße 148\"}"
+    },
+    "{\"description\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\", \"title\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\"}": {
+      "fingerprint": "{\"description\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\", \"lastupdate\": \"\", \"lines\": [\"26A\"], \"title\": \"Bauarbeiten\\nBusse halten Erzherzog-Karl-Straße 78\"}"
+    }
   }
 }
