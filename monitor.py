@@ -1,3 +1,9 @@
+# Datenquelle:
+# Wiener Linien Open Data
+# https://www.wienerlinien.at/ogd_realtime/
+# Lizenz: CC BY
+
+
 import json
 import os
 import re
