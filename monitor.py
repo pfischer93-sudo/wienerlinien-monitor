@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -18,6 +19,8 @@ API_URL = "https://www.wienerlinien.at/ogd_realtime/trafficInfoList"
 
 STATE_FILE = Path("state.json")
 
+STATE_VERSION = 2
+
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
 
 if not NTFY_TOPIC:
@@ -31,8 +34,7 @@ if not NTFY_TOPIC:
 def get_traffic_infos():
 
     params = [
-        ("name", "stoerungkurz"),
-        ("name", "stoerunglang")
+        ("name", "stoerungkurz")
     ]
 
     for line in sorted(LINES):
@@ -45,7 +47,7 @@ def get_traffic_infos():
         headers={
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "User-Agent": "WienerLinienMonitor/1.0"
+            "User-Agent": "WienerLinienMonitor/2.0"
         }
     )
 
@@ -56,31 +58,7 @@ def get_traffic_infos():
 
 
 # ============================================================
-# PUSH MIT NTFY
-# ============================================================
-
-def send_push(title, message):
-
-    url = "https://ntfy.sh/" + urllib.parse.quote(NTFY_TOPIC, safe="")
-
-    request = urllib.request.Request(
-        url,
-        data=message.encode("utf-8"),
-        method="POST",
-        headers={
-            "Title": "Wiener Linien",
-            "Priority": "high",
-            "Tags": "rotating_light"
-        }
-    )
-
-    with urllib.request.urlopen(request, timeout=30) as response:
-        if response.status not in (200, 201):
-            raise RuntimeError(f"ntfy Fehler: HTTP {response.status}")
-
-
-# ============================================================
-# BETROFFENE LINIEN ERMITTELN
+# LINIEN
 # ============================================================
 
 def get_lines(info):
@@ -91,36 +69,296 @@ def get_lines(info):
 
     for line in related_lines:
 
-        if line in LINES:
+        if line in LINES and line not in result:
             result.append(line)
 
     return result
 
 
+def sort_lines(lines):
+
+    order = {
+        "U1": 1,
+        "U3": 2,
+        "11": 10,
+        "25": 20,
+        "26": 21,
+        "27": 22,
+        "71": 30,
+        "16A": 40,
+        "17A": 41,
+        "19A": 42,
+        "26A": 43,
+        "26E": 44,
+        "27A": 45,
+        "S1": 50,
+        "S2": 51,
+        "S3": 52,
+        "S4": 53,
+        "S7": 54,
+        "S45": 55,
+        "S80": 56,
+        "R81": 57
+    }
+
+    return sorted(lines, key=lambda x: order.get(x, 999))
+
+
 # ============================================================
-# MELDUNG AUFBEREITEN
+# TEXT BEREINIGEN
 # ============================================================
 
-def create_message(info):
+def clean_text(text):
 
-    lines = get_lines(info)
+    if not text:
+        return ""
 
-    line_text = ", ".join(lines) if lines else "Wiener Linien"
+    text = str(text)
 
-    title = info.get("title", "").strip()
-    description = info.get("description", "").strip()
+    text = text.replace("\r\n", "\n")
+    text = text.replace("\r", "\n")
 
-    message_parts = [
-        f"Linie: {line_text}"
-    ]
+    text = re.sub(r"[ \t]+", " ", text)
 
-    if title:
-        message_parts.append(title)
+    text = re.sub(r"\n+", "\n", text)
 
-    if description:
-        message_parts.append(description)
+    return text.strip()
 
-    return "\n".join(message_parts)
+
+# ============================================================
+# LINIENNUMMER AUS TITEL ENTFERNEN
+#
+# Beispiele:
+# "U1: Vandalismus" -> "Vandalismus"
+# "25: Baustelle"   -> "Baustelle"
+# ============================================================
+
+def clean_title(title):
+
+    title = clean_text(title)
+
+    if not title:
+        return "Wiener Linien"
+
+    pattern = r"^(?:Linie\s+)?(?:U\d+|S\d+|R\d+|(?:\d+[A-Z]?))\s*:\s*"
+
+    return re.sub(
+        pattern,
+        "",
+        title,
+        flags=re.IGNORECASE
+    ).strip()
+
+
+# ============================================================
+# LINIENPRÄFIX AUS BESCHREIBUNG ENTFERNEN
+#
+# Wird nur für die Gruppierung verwendet.
+# Die originale Beschreibung bleibt für die Push-Nachricht
+# erhalten.
+# ============================================================
+
+def normalized_description(description):
+
+    description = clean_text(description)
+
+    description = re.sub(
+        r"^Linie\s+(?:U\d+|S\d+|R\d+|\d+[A-Z]?)\s*:\s*",
+        "",
+        description,
+        flags=re.IGNORECASE
+    )
+
+    return description.strip()
+
+
+# ============================================================
+# GRUPPENSCHLÜSSEL
+#
+# Wenn 25, 26 und 27 exakt dieselbe Störung melden,
+# werden sie zu einer Push-Meldung zusammengefasst.
+# ============================================================
+
+def get_group_key(info):
+
+    title = clean_title(info.get("title", ""))
+
+    description = normalized_description(
+        info.get("description", "")
+    )
+
+    return json.dumps(
+        {
+            "title": title,
+            "description": description
+        },
+        ensure_ascii=False,
+        sort_keys=True
+    )
+
+
+# ============================================================
+# PUSH-NACHRICHT
+# ============================================================
+
+def send_push(title, message, is_update):
+
+    if is_update:
+
+        emoji = "🟡"
+        priority = 4
+
+    else:
+
+        emoji = "❗"
+        priority = 5
+
+    full_title = f"{emoji} {title}"
+
+    payload = {
+        "topic": NTFY_TOPIC,
+        "title": full_title,
+        "message": message,
+        "priority": priority
+    }
+
+    body = json.dumps(
+        payload,
+        ensure_ascii=False
+    ).encode("utf-8")
+
+    request = urllib.request.Request(
+        "https://ntfy.sh/",
+        data=body,
+        method="POST",
+        headers={
+            "Content-Type": "application/json"
+        }
+    )
+
+    with urllib.request.urlopen(request, timeout=30) as response:
+
+        if response.status not in (200, 201):
+
+            raise RuntimeError(
+                f"ntfy Fehler: HTTP {response.status}"
+            )
+
+
+# ============================================================
+# PUSH-TEXT ERSTELLEN
+# ============================================================
+
+def create_message(group):
+
+    lines = sort_lines(
+        group["lines"]
+    )
+
+    description = group["description"]
+
+    if len(lines) == 1:
+
+        prefix = f"Linie {lines[0]}:"
+
+    else:
+
+        prefix = f"Linien {', '.join(lines)}:"
+
+    return f"{prefix} {description}"
+
+
+# ============================================================
+# MELDUNGSGRUPPEN ERSTELLEN
+# ============================================================
+
+def build_groups(infos):
+
+    groups = {}
+
+    for info in infos:
+
+        lines = get_lines(info)
+
+        if not lines:
+            continue
+
+        title = clean_title(
+            info.get("title", "")
+        )
+
+        description = normalized_description(
+            info.get("description", "")
+        )
+
+        if not title and not description:
+            continue
+
+        group_key = get_group_key(info)
+
+        if group_key not in groups:
+
+            groups[group_key] = {
+                "title": title,
+                "description": description,
+                "lines": set(),
+                "lastupdate": "",
+                "source_names": []
+            }
+
+        group = groups[group_key]
+
+        for line in lines:
+            group["lines"].add(line)
+
+        name = info.get("name")
+
+        if name:
+            group["source_names"].append(name)
+
+        time_data = info.get("time", {})
+
+        lastupdate = time_data.get(
+            "lastupdate",
+            ""
+        )
+
+        if lastupdate > group["lastupdate"]:
+
+            group["lastupdate"] = lastupdate
+
+    # Sets in normale Listen umwandeln
+    for group in groups.values():
+
+        group["lines"] = sort_lines(
+            list(group["lines"])
+        )
+
+        group["source_names"] = sorted(
+            set(group["source_names"])
+        )
+
+    return groups
+
+
+# ============================================================
+# FINGERPRINT FÜR GRUPPEN
+# ============================================================
+
+def get_group_fingerprint(group):
+
+    data = {
+        "title": group["title"],
+        "description": group["description"],
+        "lines": group["lines"],
+        "lastupdate": group["lastupdate"]
+    }
+
+    return json.dumps(
+        data,
+        ensure_ascii=False,
+        sort_keys=True
+    )
 
 
 # ============================================================
@@ -132,153 +370,193 @@ def main():
     print("Wiener Linien werden abgefragt...")
 
     # --------------------------------------------------------
-    # Aktuelle Meldungen abrufen
+    # Aktuelle Daten abrufen
     # --------------------------------------------------------
 
-    current_infos = get_traffic_infos()
+    traffic_infos = get_traffic_infos()
 
-    current = {}
+    print(
+        f"API liefert {len(traffic_infos)} Meldungen."
+    )
 
-    for info in current_infos:
+    # --------------------------------------------------------
+    # Meldungen gruppieren
+    # --------------------------------------------------------
 
-        lines = get_lines(info)
+    current_groups = build_groups(
+        traffic_infos
+    )
 
-        if not lines:
-            continue
-
-        name = info.get("name")
-
-        if not name:
-            continue
-
-        # Alle relevanten Informationen der Meldung werden
-        # zusammengefasst. Damit erkennen wir auch Änderungen.
-        fingerprint_data = {
-            "name": name,
-            "title": info.get("title", ""),
-            "description": info.get("description", ""),
-            "relatedLines": sorted(lines),
-            "time": info.get("time", {}),
-            "attributes": info.get("attributes", {})
-        }
-
-        fingerprint = json.dumps(
-            fingerprint_data,
-            ensure_ascii=False,
-            sort_keys=True
-        )
-
-        current[name] = {
-            "fingerprint": fingerprint,
-            "info": info
-        }
-
-    print(f"Aktive relevante Meldungen: {len(current)}")
+    print(
+        f"Daraus entstehen {len(current_groups)} Meldungsgruppen."
+    )
 
     # --------------------------------------------------------
     # Alten Stand laden
     # --------------------------------------------------------
 
-    first_run = not STATE_FILE.exists()
+    first_run = False
 
-    if STATE_FILE.exists():
+    if not STATE_FILE.exists():
 
-        try:
-
-            old_state = json.loads(
-                STATE_FILE.read_text(encoding="utf-8")
-            )
-
-        except Exception:
-
-            print("state.json konnte nicht gelesen werden.")
-            old_state = {}
+        first_run = True
+        old_state = {}
 
     else:
 
-        old_state = {}
+        try:
+
+            stored_state = json.loads(
+                STATE_FILE.read_text(
+                    encoding="utf-8"
+                )
+            )
+
+            if stored_state.get("version") != STATE_VERSION:
+
+                print(
+                    "Neue State-Version erkannt. "
+                    "Aktuellen Stand ohne Push übernehmen."
+                )
+
+                first_run = True
+                old_state = {}
+
+            else:
+
+                old_state = stored_state.get(
+                    "groups",
+                    {}
+                )
+
+        except Exception:
+
+            print(
+                "state.json konnte nicht gelesen werden. "
+                "Aktuellen Stand ohne Push übernehmen."
+            )
+
+            first_run = True
+            old_state = {}
 
     # --------------------------------------------------------
-    # Neue / geänderte Meldungen finden
+    # Neue / geänderte Meldungen
     # --------------------------------------------------------
 
     changes = []
 
     if first_run:
 
-        print("Erster Lauf: Aktuellen Stand speichern.")
-        print("Es werden noch keine Push-Nachrichten verschickt.")
+        print(
+            "Erster Lauf dieser Version."
+        )
+
+        print(
+            "Es werden keine Push-Nachrichten gesendet."
+        )
 
     else:
 
-        for name, item in current.items():
+        for group_key, group in current_groups.items():
 
-            # Neue Meldung
-            if name not in old_state:
+            fingerprint = get_group_fingerprint(
+                group
+            )
+
+            if group_key not in old_state:
 
                 changes.append(
-                    ("new", item["info"])
+                    {
+                        "type": "new",
+                        "group": group
+                    }
                 )
 
-            # Bereits bekannte Meldung wurde verändert
-            elif old_state[name].get("fingerprint") != item["fingerprint"]:
+            elif old_state[group_key].get(
+                "fingerprint"
+            ) != fingerprint:
 
                 changes.append(
-                    ("changed", item["info"])
+                    {
+                        "type": "changed",
+                        "group": group
+                    }
                 )
 
     # --------------------------------------------------------
-    # Push-Nachrichten senden
+    # Push-Nachrichten
     # --------------------------------------------------------
 
-    if changes:
+    print(
+        f"Neue/geänderte Gruppen: {len(changes)}"
+    )
 
-        print(f"Neue/geänderte Meldungen: {len(changes)}")
+    for change in changes:
 
-    else:
+        group = change["group"]
 
-        print("Keine neuen oder geänderten Meldungen.")
+        if change["type"] == "new":
 
-    for change_type, info in changes:
+            title = (
+                ", ".join(group["lines"])
+                + ": "
+                + group["title"]
+            )
 
-        lines = get_lines(info)
-
-        line_text = ", ".join(lines)
-
-        if change_type == "new":
-
-            push_title = f"Neue Störung – {line_text}"
+            is_update = False
 
         else:
 
-            push_title = f"Störung geändert – {line_text}"
+            title = (
+                ", ".join(group["lines"])
+                + ": "
+                + group["title"]
+            )
 
-        push_message = create_message(info)
+            is_update = True
+
+        message = create_message(
+            group
+        )
 
         print()
-        print(push_title)
-        print(push_message)
+        print(
+            "Push:",
+            title
+        )
+
+        print(
+            message
+        )
 
         send_push(
-            push_title,
-            push_message
+            title,
+            message,
+            is_update
         )
 
     # --------------------------------------------------------
-    # Aktuellen Stand speichern
+    # Neuen Stand speichern
     # --------------------------------------------------------
 
-    new_state = {}
+    new_groups = {}
 
-    for name, item in current.items():
+    for group_key, group in current_groups.items():
 
-        new_state[name] = {
-            "fingerprint": item["fingerprint"]
+        new_groups[group_key] = {
+            "fingerprint": get_group_fingerprint(
+                group
+            )
         }
+
+    state = {
+        "version": STATE_VERSION,
+        "groups": new_groups
+    }
 
     STATE_FILE.write_text(
         json.dumps(
-            new_state,
+            state,
             ensure_ascii=False,
             indent=2
         ),
@@ -286,7 +564,9 @@ def main():
     )
 
     print()
-    print("Aktueller Stand wurde gespeichert.")
+    print(
+        "Aktueller Stand wurde gespeichert."
+    )
 
 
 # ============================================================
