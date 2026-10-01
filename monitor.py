@@ -13,8 +13,8 @@ from pathlib import Path
 # Wiener Linien Open Data
 # https://www.wienerlinien.at/ogd_realtime/
 #
-# Die Daten werden über die Open-Data-Schnittstelle
-# der Wiener Linien abgerufen.
+# Verwendet wird "stoerunglang", da dieser Datensatz bereits
+# Titel und vollständige Beschreibung der Störung enthält.
 # ============================================================
 
 
@@ -32,7 +32,7 @@ API_URL = "https://www.wienerlinien.at/ogd_realtime/trafficInfoList"
 
 STATE_FILE = Path("state.json")
 
-STATE_VERSION = 4
+STATE_VERSION = 5
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
 
@@ -43,7 +43,7 @@ if not NTFY_TOPIC:
 
 
 # ============================================================
-# REIHENFOLGE DER LINIEN
+# LINIENREIHENFOLGE
 # ============================================================
 
 LINE_ORDER = {
@@ -113,19 +113,13 @@ def clean_text(text):
 
 
 # ============================================================
-# WIENER LINIEN API ABFRAGEN
-#
-# Wir verwenden bewusst nur "stoerungkurz".
-#
-# Wie der aktuelle JSON-Ausschnitt zeigt, enthält die
-# Beschreibung hier bereits den vollständigen Text, den wir
-# in der Push-Nachricht anzeigen wollen.
+# API ABFRAGEN
 # ============================================================
 
 def get_traffic_infos():
 
     params = [
-        ("name", "stoerungkurz")
+        ("name", "stoerunglang")
     ]
 
     for line in sorted(LINES):
@@ -139,12 +133,17 @@ def get_traffic_infos():
         + urllib.parse.urlencode(params)
     )
 
+    print(
+        "API:",
+        url
+    )
+
     request = urllib.request.Request(
         url,
         headers={
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "User-Agent": "WienerLinienMonitor/4.0"
+            "User-Agent": "WienerLinienMonitor/5.0"
         }
     )
 
@@ -189,17 +188,11 @@ def get_lines(info):
 # ============================================================
 # STÖRUNGS-ID
 #
-# "name" ist die stabile ID der Wiener-Linien-Meldung.
-#
 # Beispiel:
 #
 # I20261001-0046
 #
-# Diese ID verwenden wir für die Erkennung von:
-#
-# - neuer Meldung
-# - Änderung
-# - unveränderter Meldung
+# Diese ID bleibt für die konkrete Störung erhalten.
 # ============================================================
 
 def get_message_id(info):
@@ -209,14 +202,24 @@ def get_message_id(info):
     )
 
     if name:
+
         return str(name)
 
-    # Sollte die API ausnahmsweise keine ID liefern,
-    # erzeugen wir einen Ersatzschlüssel.
+    # Fallback, falls die API einmal keine ID liefert.
+
     return json.dumps(
         {
             "title": clean_text(
-                info.get("title", "")
+                info.get(
+                    "title",
+                    ""
+                )
+            ),
+            "description": clean_text(
+                info.get(
+                    "description",
+                    ""
+                )
             ),
             "lines": get_lines(info)
         },
@@ -226,11 +229,11 @@ def get_message_id(info):
 
 
 # ============================================================
-# LETZTES UPDATE
+# LAST UPDATE
 #
 # WICHTIG:
-# Die Wiener-Linien-API verwendet "lastUpdate"
-# mit großem U.
+#
+# Die API verwendet "lastUpdate" mit großem U.
 # ============================================================
 
 def get_last_update(info):
@@ -254,50 +257,38 @@ def get_last_update(info):
 
 def create_message(info):
 
-    message_id = get_message_id(
-        info
-    )
-
-    title = clean_text(
-        info.get(
-            "title",
-            ""
-        )
-    )
-
-    description = clean_text(
-        info.get(
-            "description",
-            ""
-        )
-    )
-
-    lines = get_lines(
-        info
-    )
-
-    last_update = get_last_update(
-        info
-    )
-
     return {
-        "id": message_id,
-        "title": title,
-        "description": description,
-        "lines": lines,
-        "lastupdate": last_update,
-        "status": info.get(
-            "status",
-            ""
-        )
+        "id": get_message_id(info),
+
+        "title": clean_text(
+            info.get(
+                "title",
+                ""
+            )
+        ),
+
+        "description": clean_text(
+            info.get(
+                "description",
+                ""
+            )
+        ),
+
+        "lines": get_lines(info),
+
+        "lastupdate": get_last_update(info),
+
+        "status": str(
+            info.get(
+                "status",
+                ""
+            )
+        ).lower()
     }
 
 
 # ============================================================
-# DOPPELTE MELDUNGEN ENTFERNEN
-#
-# Die API kann theoretisch dieselbe Meldung mehrfach liefern.
-# Die eindeutige "name"-ID verhindert dann doppelte Pushs.
+# MELDUNGEN AUFBEREITEN
 # ============================================================
 
 def build_messages(infos):
@@ -306,7 +297,10 @@ def build_messages(infos):
 
     for info in infos:
 
-        # Nur aktive Meldungen berücksichtigen.
+        # ----------------------------------------------------
+        # Nur aktive Meldungen
+        # ----------------------------------------------------
+
         status = str(
             info.get(
                 "status",
@@ -314,8 +308,12 @@ def build_messages(infos):
             )
         ).lower()
 
-        if status and status != "active":
+        if status != "active":
             continue
+
+        # ----------------------------------------------------
+        # Nur überwachte Linien
+        # ----------------------------------------------------
 
         lines = get_lines(
             info
@@ -323,6 +321,10 @@ def build_messages(infos):
 
         if not lines:
             continue
+
+        # ----------------------------------------------------
+        # Meldung erstellen
+        # ----------------------------------------------------
 
         message = create_message(
             info
@@ -336,12 +338,13 @@ def build_messages(infos):
 
         else:
 
+            # Falls dieselbe ID mehrfach auftaucht,
+            # die Linien zusammenführen.
+
             existing = messages[
                 message_id
             ]
 
-            # Falls mehrere Datensätze mit derselben ID
-            # vorhanden sind, die Linien zusammenführen.
             existing["lines"] = sort_lines(
                 list(
                     set(
@@ -351,14 +354,22 @@ def build_messages(infos):
                 )
             )
 
-            # Den aktuelleren Datensatz verwenden.
-            if message["lastupdate"] > existing["lastupdate"]:
+            # Den Datensatz mit dem neuesten Update
+            # übernehmen.
 
-                messages[message_id] = message
+            if (
+                message["lastupdate"]
+                >
+                existing["lastupdate"]
+            ):
 
-                messages[message_id]["lines"] = existing[
+                message["lines"] = existing[
                     "lines"
                 ]
+
+                messages[
+                    message_id
+                ] = message
 
     return messages
 
@@ -366,7 +377,12 @@ def build_messages(infos):
 # ============================================================
 # FINGERPRINT
 #
-# Damit erkennen wir auch Änderungen am eigentlichen Text.
+# Damit erkennen wir jede Änderung an:
+#
+# - Titel
+# - Beschreibung
+# - Linien
+# - lastUpdate
 # ============================================================
 
 def get_fingerprint(message):
@@ -410,7 +426,7 @@ def load_state():
     except Exception as ex:
 
         print(
-            "state.json konnte nicht gelesen werden."
+            "state.json konnte nicht gelesen werden:"
         )
 
         print(
@@ -426,16 +442,16 @@ def load_state():
     if version != STATE_VERSION:
 
         print(
-            f"Alte State-Version erkannt: {version}"
+            f"State-Version {version} gefunden."
         )
 
         print(
-            f"Aktuelle Version benötigt: {STATE_VERSION}"
+            f"Benötigt wird Version {STATE_VERSION}."
         )
 
         print(
-            "Der vorhandene Bestand wird übernommen, "
-            "ohne dafür Push-Nachrichten zu senden."
+            "Der aktuelle Bestand wird ohne Push "
+            "übernommen."
         )
 
         return {}, True
@@ -565,7 +581,7 @@ def main():
     print()
 
     # --------------------------------------------------------
-    # API ABFRAGEN
+    # API
     # --------------------------------------------------------
 
     print(
@@ -593,13 +609,29 @@ def main():
     )
 
     # --------------------------------------------------------
-    # STATE LADEN
+    # DEBUG:
+    # ALLE GEFUNDENEN MELDUNGEN AUSGEBEN
+    # --------------------------------------------------------
+
+    for message in current_messages.values():
+
+        print(
+            f"[{message['id']}] "
+            f"{message['title']} "
+            f"| Linien: "
+            f"{', '.join(message['lines'])} "
+            f"| lastUpdate: "
+            f"{message['lastupdate']}"
+        )
+
+    # --------------------------------------------------------
+    # STATE
     # --------------------------------------------------------
 
     old_messages, first_run = load_state()
 
     # --------------------------------------------------------
-    # NEUE / GEÄNDERTE MELDUNGEN ERMITTELN
+    # ÄNDERUNGEN
     # --------------------------------------------------------
 
     changes = []
@@ -625,7 +657,7 @@ def main():
             )
 
             # ------------------------------------------------
-            # NEUE MELDUNG
+            # NEU
             # ------------------------------------------------
 
             if message_id not in old_messages:
@@ -640,7 +672,7 @@ def main():
                 continue
 
             # ------------------------------------------------
-            # BESTEHENDE MELDUNG
+            # VERGLEICH
             # ------------------------------------------------
 
             old_message = old_messages[
@@ -653,7 +685,7 @@ def main():
             )
 
             # ------------------------------------------------
-            # GEÄNDERTE MELDUNG
+            # UPDATE
             # ------------------------------------------------
 
             if old_fingerprint != fingerprint:
@@ -666,7 +698,7 @@ def main():
                 )
 
     # --------------------------------------------------------
-    # ERGEBNIS
+    # AUSGABE
     # --------------------------------------------------------
 
     print()
@@ -676,7 +708,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PUSHES
+    # PUSH
     # --------------------------------------------------------
 
     for change in changes:
