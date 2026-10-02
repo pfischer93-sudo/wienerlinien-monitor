@@ -20,6 +20,25 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261002-0043-F01": {
+      "fingerprint": "{\"description\": \"Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-02T21:19:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Rettungseinsatz\"}",
+      "title": "U1: Rettungseinsatz",
+      "description": "Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-02T21:19:00.000+0200"
+    },
+    "I20261002-0045": {
+      "fingerprint": "{\"description\": \"Linie 67B: Fahrtbehinderung in beiden Richtungen. Linie 16A: Fahrtbehinderung in beiden Richtungen. Linie 17A: Fahrtbehinderung in beiden Richtungen. Linie 67A: Fahrtbehinderung in beiden Richtungen. Voraussichtliche Dauer: 21:45 Uhr. Grund: Störung an einem Bahnübergang im Bereich Himberger Straße.\", \"lastupdate\": \"2026-10-02T21:29:00.000+0200\", \"lines\": [\"16A\", \"17A\"], \"title\": \"16A, 17A, 67A, 67B: Störung an einem Bahnübergang\"}",
+      "title": "16A, 17A, 67A, 67B: Störung an einem Bahnübergang",
+      "description": "Linie 67B: Fahrtbehinderung in beiden Richtungen. Linie 16A: Fahrtbehinderung in beiden Richtungen. Linie 17A: Fahrtbehinderung in beiden Richtungen. Linie 67A: Fahrtbehinderung in beiden Richtungen. Voraussichtliche Dauer: 21:45 Uhr. Grund: Störung an einem Bahnübergang im Bereich Himberger Straße.",
+      "lines": [
+        "16A",
+        "17A"
+      ],
+      "lastupdate": "2026-10-02T21:29:00.000+0200"
     }
   }
 }
