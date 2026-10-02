@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261002-0009": {
-      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz im Haltestellenbereich Westbahnhof.\", \"lastupdate\": \"2026-10-02T09:00:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
-      "title": "U3: Rettungseinsatz",
-      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz im Haltestellenbereich Westbahnhof.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-02T09:00:00.000+0200"
     }
   }
 }
