@@ -1,6 +1,15 @@
 {
   "version": 5,
   "messages": {
+    "I20261002-0031": {
+      "fingerprint": "{\"description\": \"Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Reumannplatz U. Linie 11: Umleitung in Richtung Otto-Probst-Platz zwischen Absberggasse und Quellenplatz über Hauptbahnhof S U. Voraussichtliche Dauer: 16:30 Uhr. Grund: Verkehrsunfall im Bereich Quellenstraße 55.\", \"lastupdate\": \"2026-10-02T16:05:00.000+0200\", \"lines\": [\"11\"], \"title\": \"6, 11: Verkehrsunfall\"}",
+      "title": "6, 11: Verkehrsunfall",
+      "description": "Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Reumannplatz U. Linie 11: Umleitung in Richtung Otto-Probst-Platz zwischen Absberggasse und Quellenplatz über Hauptbahnhof S U. Voraussichtliche Dauer: 16:30 Uhr. Grund: Verkehrsunfall im Bereich Quellenstraße 55.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-02T16:05:00.000+0200"
+    },
     "I20261002-0027-F01": {
       "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-02T15:22:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Polizeieinsatz\"}",
       "title": "U3: Polizeieinsatz",
