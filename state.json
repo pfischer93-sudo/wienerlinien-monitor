@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261002-0043-F01": {
-      "fingerprint": "{\"description\": \"Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-02T21:19:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Rettungseinsatz\"}",
-      "title": "U1: Rettungseinsatz",
-      "description": "Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-02T21:19:00.000+0200"
     }
   }
 }
