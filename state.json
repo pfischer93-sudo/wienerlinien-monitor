@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261002-0046-F04": {
-      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-02T22:56:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Schadhaftes Fahrzeug\"}",
-      "title": "71: Schadhaftes Fahrzeug",
-      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-10-02T22:56:00.000+0200"
-    },
     "I20261002-0050": {
       "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.\", \"lastupdate\": \"2026-10-03T01:03:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Verunreinigung\"}",
       "title": "U3: Verunreinigung",
