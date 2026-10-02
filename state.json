@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261002-0022": {
-      "fingerprint": "{\"description\": \"Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.\", \"lastupdate\": \"2026-10-02T13:58:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A: Verkehrsüberlastung\"}",
-      "title": "16A: Verkehrsüberlastung",
-      "description": "Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.",
-      "lines": [
-        "16A"
-      ],
-      "lastupdate": "2026-10-02T13:58:00.000+0200"
     }
   }
 }
