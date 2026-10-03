@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261003-0010": {
+      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Schwedenplatz und Taubstummengasse in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 12:30 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Taubstummengasse.\", \"lastupdate\": \"2026-10-03T12:11:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Rettungseinsatz\"}",
+      "title": "U1: Rettungseinsatz",
+      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Schwedenplatz und Taubstummengasse in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 12:30 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Taubstummengasse.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-03T12:11:00.000+0200"
     }
   }
 }
