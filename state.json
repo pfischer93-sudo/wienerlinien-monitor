@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261002-0050": {
-      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.\", \"lastupdate\": \"2026-10-03T01:03:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Verunreinigung\"}",
-      "title": "U3: Verunreinigung",
-      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-03T01:03:00.000+0200"
-    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
