@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261005-0014": {
-      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung im Haltestellenbereich Landstraße.\", \"lastupdate\": \"2026-10-05T10:00:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Betriebsstörung\"}",
-      "title": "U3: Betriebsstörung",
-      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung im Haltestellenbereich Landstraße.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-05T10:00:00.000+0200"
     }
   }
 }
