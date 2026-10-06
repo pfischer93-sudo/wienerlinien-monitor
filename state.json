@@ -20,6 +20,15 @@
         "26E"
       ],
       "lastupdate": "2026-09-26T13:51:00.000+0200"
+    },
+    "I20261006-0034": {
+      "fingerprint": "{\"description\": \"Linie U3: Fahrtbehinderung in Richtung Simmering. Voraussichtliche Dauer: 18:45 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Hütteldorfer Straße.\", \"lastupdate\": \"2026-10-06T18:16:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
+      "title": "U3: Rettungseinsatz",
+      "description": "Linie U3: Fahrtbehinderung in Richtung Simmering. Voraussichtliche Dauer: 18:45 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Hütteldorfer Straße.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-10-06T18:16:00.000+0200"
     }
   }
 }
