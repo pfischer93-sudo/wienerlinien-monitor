@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261006-0021": {
+      "fingerprint": "{\"description\": \"Linie 26: Fahrtbehinderung in Richtung Kagran. Voraussichtliche Dauer: 14:05 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Am Heidjöchl.\", \"lastupdate\": \"2026-10-06T13:46:00.000+0200\", \"lines\": [\"26\"], \"title\": \"26: Schadhaftes Fahrzeug\"}",
+      "title": "26: Schadhaftes Fahrzeug",
+      "description": "Linie 26: Fahrtbehinderung in Richtung Kagran. Voraussichtliche Dauer: 14:05 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Am Heidjöchl.",
+      "lines": [
+        "26"
+      ],
+      "lastupdate": "2026-10-06T13:46:00.000+0200"
     }
   }
 }
