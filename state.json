@@ -29,6 +29,15 @@
         "U3"
       ],
       "lastupdate": "2026-10-06T18:27:00.000+0200"
+    },
+    "I20261006-0037": {
+      "fingerprint": "{\"description\": \"Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Weiterfahrt bis Reumannplatz U. Weichen Sie ersatzweise auf die Linien U1, 7A, 15A und 16A aus. Voraussichtliche Dauer: 20:00 Uhr. Grund: Fremder Verkehrsunfall im Bereich Laxenburger Straße # Troststraße.\", \"lastupdate\": \"2026-10-06T19:11:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11, O: Fremder Verkehrsunfall\"}",
+      "title": "11, O: Fremder Verkehrsunfall",
+      "description": "Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Weiterfahrt bis Reumannplatz U. Weichen Sie ersatzweise auf die Linien U1, 7A, 15A und 16A aus. Voraussichtliche Dauer: 20:00 Uhr. Grund: Fremder Verkehrsunfall im Bereich Laxenburger Straße # Troststraße.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-06T19:11:00.000+0200"
     }
   }
 }
