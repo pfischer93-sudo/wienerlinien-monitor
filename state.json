@@ -29,15 +29,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261007-0013": {
-      "fingerprint": "{\"description\": \"Linie 26A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Polizeieinsatz.\", \"lastupdate\": \"2026-10-07T12:39:00.000+0200\", \"lines\": [\"26A\"], \"title\": \"26A: Polizeieinsatz\"}",
-      "title": "26A: Polizeieinsatz",
-      "description": "Linie 26A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Polizeieinsatz.",
-      "lines": [
-        "26A"
-      ],
-      "lastupdate": "2026-10-07T12:39:00.000+0200"
     }
   }
 }
