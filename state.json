@@ -28,15 +28,6 @@
       ],
       "lastupdate": "2026-10-08T07:37:00.000+0200"
     },
-    "I20261008-0002": {
-      "fingerprint": "{\"description\": \"Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Reumannplatz U. Linie 11: Umleitung in Richtung Otto-Probst-Platz zwischen Absberggasse und Quellenplatz über Hauptbahnhof S U. Linie 14A: Betrieb nur zwischen Neubaugasse U und Laxenburger Straße, Gudrunstraße. Voraussichtliche Dauer: 08:00Uhr. Grund: Rettungseinsatz im Bereich Quellenstraße 107.\", \"lastupdate\": \"2026-10-08T07:53:00.000+0200\", \"lines\": [\"11\"], \"title\": \"6, 11, 14A: Rettungseinsatz\"}",
-      "title": "6, 11, 14A: Rettungseinsatz",
-      "description": "Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Reumannplatz U. Linie 11: Umleitung in Richtung Otto-Probst-Platz zwischen Absberggasse und Quellenplatz über Hauptbahnhof S U. Linie 14A: Betrieb nur zwischen Neubaugasse U und Laxenburger Straße, Gudrunstraße. Voraussichtliche Dauer: 08:00Uhr. Grund: Rettungseinsatz im Bereich Quellenstraße 107.",
-      "lines": [
-        "11"
-      ],
-      "lastupdate": "2026-10-08T07:53:00.000+0200"
-    },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
       "title": "25, 26, 27: Gleisbauarbeiten",
@@ -47,6 +38,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261008-0002": {
+      "fingerprint": "{\"description\": \"Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Reumannplatz U. Linie 11: Umleitung in Richtung Otto-Probst-Platz zwischen Absberggasse und Quellenplatz über Hauptbahnhof S U. Linie 14A: Betrieb nur zwischen Neubaugasse U und Laxenburger Straße, Gudrunstraße. Voraussichtliche Dauer: 09:00Uhr. Grund: Rettungseinsatz im Bereich Quellenstraße 107.\", \"lastupdate\": \"2026-10-08T08:06:00.000+0200\", \"lines\": [\"11\"], \"title\": \"6, 11, 14A: Rettungseinsatz\"}",
+      "title": "6, 11, 14A: Rettungseinsatz",
+      "description": "Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Reumannplatz U. Linie 11: Umleitung in Richtung Otto-Probst-Platz zwischen Absberggasse und Quellenplatz über Hauptbahnhof S U. Linie 14A: Betrieb nur zwischen Neubaugasse U und Laxenburger Straße, Gudrunstraße. Voraussichtliche Dauer: 09:00Uhr. Grund: Rettungseinsatz im Bereich Quellenstraße 107.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-08T08:06:00.000+0200"
     }
   }
 }
