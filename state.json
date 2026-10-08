@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261008-0023-F01": {
-      "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-08T16:18:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Schadhaftes Fahrzeug\"}",
-      "title": "U3: Schadhaftes Fahrzeug",
-      "description": "Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-08T16:18:00.000+0200"
     }
   }
 }
