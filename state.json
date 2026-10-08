@@ -21,14 +21,14 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261008-0012": {
-      "fingerprint": "{\"description\": \"Linie 11: Fahrtbehinderung in Richtung Kaiserebersdorf, Zinnergasse. Voraussichtliche Dauer: 12:25 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Frödenplatz.\", \"lastupdate\": \"2026-10-08T12:12:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Schadhaftes Fahrzeug\"}",
+    "I20261008-0012-F01": {
+      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-08T12:15:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Schadhaftes Fahrzeug\"}",
       "title": "11: Schadhaftes Fahrzeug",
-      "description": "Linie 11: Fahrtbehinderung in Richtung Kaiserebersdorf, Zinnergasse. Voraussichtliche Dauer: 12:25 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Frödenplatz.",
+      "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "11"
       ],
-      "lastupdate": "2026-10-08T12:12:00.000+0200"
+      "lastupdate": "2026-10-08T12:15:00.000+0200"
     }
   }
 }
