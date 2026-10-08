@@ -22,13 +22,13 @@
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
     "I20261008-0037": {
-      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Rennbahnweg und Aderklaaer Straße in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 21:05 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Rennbahnweg.\", \"lastupdate\": \"2026-10-08T20:36:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Schadhaftes Fahrzeug\"}",
+      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Rennbahnweg und Aderklaaer Straße in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 22:00 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Rennbahnweg.\", \"lastupdate\": \"2026-10-08T21:03:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Schadhaftes Fahrzeug\"}",
       "title": "U1: Schadhaftes Fahrzeug",
-      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Rennbahnweg und Aderklaaer Straße in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 21:05 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Rennbahnweg.",
+      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Rennbahnweg und Aderklaaer Straße in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 22:00 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Rennbahnweg.",
       "lines": [
         "U1"
       ],
-      "lastupdate": "2026-10-08T20:36:00.000+0200"
+      "lastupdate": "2026-10-08T21:03:00.000+0200"
     }
   }
 }
