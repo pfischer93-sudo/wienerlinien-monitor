@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261008-0017": {
+      "fingerprint": "{\"description\": \"Die Linie U3 fährt derzeit zwischen den Stationen Volkstheater und Zieglergasse in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 15:15 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Volkstheater.\", \"lastupdate\": \"2026-10-08T14:43:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Schadhaftes Fahrzeug\"}",
+      "title": "U3: Schadhaftes Fahrzeug",
+      "description": "Die Linie U3 fährt derzeit zwischen den Stationen Volkstheater und Zieglergasse in beiden Richtungen über Gleis 1. Voraussichtliche Dauer: 15:15 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Volkstheater.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-10-08T14:43:00.000+0200"
     }
   }
 }
