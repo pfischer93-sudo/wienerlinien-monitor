@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261008-0031": {
+      "fingerprint": "{\"description\": \"Linie 1: Unregelmäßige Intervalle in beiden Richtungen. Linie 2: Unregelmäßige Intervalle in beiden Richtungen. Linie D: Unregelmäßige Intervalle in beiden Richtungen. Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Laufveranstaltung.\", \"lastupdate\": \"2026-10-08T18:10:00.000+0200\", \"lines\": [\"71\"], \"title\": \"D, 1, 2, 71: Laufveranstaltung\"}",
+      "title": "D, 1, 2, 71: Laufveranstaltung",
+      "description": "Linie 1: Unregelmäßige Intervalle in beiden Richtungen. Linie 2: Unregelmäßige Intervalle in beiden Richtungen. Linie D: Unregelmäßige Intervalle in beiden Richtungen. Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Laufveranstaltung.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-08T18:10:00.000+0200"
     }
   }
 }
