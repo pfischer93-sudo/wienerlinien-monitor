@@ -29,6 +29,15 @@
         "16A"
       ],
       "lastupdate": "2026-10-09T13:52:00.000+0200"
+    },
+    "I20261009-0033": {
+      "fingerprint": "{\"description\": \"Linie 11: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.\", \"lastupdate\": \"2026-10-09T16:10:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Verunreinigung\"}",
+      "title": "11: Verunreinigung",
+      "description": "Linie 11: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-09T16:10:00.000+0200"
     }
   }
 }
