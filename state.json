@@ -22,13 +22,13 @@
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
     "I20261009-0019": {
-      "fingerprint": "{\"description\": \"Linie 1: Umleitung in Richtung Stefan-Fadinger-Platz Wende über Börse und Umleitung bis Resselgasse über Schwedenplatz U und Schwarzenbergplatz. Einstieg am Karlsplatz U (bei Linie 4A) möglich. Umleitung in Richtung Prater Hauptallee zwischen Karlsplatz U und Julius-Raab-Platz über Schwarzenbergplatz und Stubentor U. Fahrgäste zwischen Börse und Schwedenplatz mit dem Ziel Prater Hauptallee müssen am Julius-Raab-Platz in einen anderen Zug der Linie 1 umsteigen. Linie D: Umleitung in Richtung Nußdorf zwischen Schwarzenbergplatz und Börse über Stubentor U und Schwedenplatz U. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U1, U2, U3 und U4 aus. Voraussichtliche Dauer: 22:00 Uhr. Grund: Demonstration im Bereich der Ringstraße.\", \"lastupdate\": \"2026-10-09T13:04:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 71, D: Demonstration\"}",
-      "title": "1, 71, D: Demonstration",
-      "description": "Linie 1: Umleitung in Richtung Stefan-Fadinger-Platz Wende über Börse und Umleitung bis Resselgasse über Schwedenplatz U und Schwarzenbergplatz. Einstieg am Karlsplatz U (bei Linie 4A) möglich. Umleitung in Richtung Prater Hauptallee zwischen Karlsplatz U und Julius-Raab-Platz über Schwarzenbergplatz und Stubentor U. Fahrgäste zwischen Börse und Schwedenplatz mit dem Ziel Prater Hauptallee müssen am Julius-Raab-Platz in einen anderen Zug der Linie 1 umsteigen. Linie D: Umleitung in Richtung Nußdorf zwischen Schwarzenbergplatz und Börse über Stubentor U und Schwedenplatz U. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U1, U2, U3 und U4 aus. Voraussichtliche Dauer: 22:00 Uhr. Grund: Demonstration im Bereich der Ringstraße.",
+      "fingerprint": "{\"description\": \"Die Linie 1 fährt derzeit nicht zwischen Börse und Resselgasse. Die Linie 2 wird in beiden Richtungen zwischen Parlament, Volkstheater und Rathaus über die Reichsratsstraße umgeleitet. Die Linie D wird in Richtung Nußdorf zwischen Schwarzenbergplatz und Börse über Schwedenplatz umgeleitet, zusätzlich ist wegen Gleisbauarbeiten ein Betrieb zwischen Börse und Augasse nicht möglich. Die Linie 71 fährt derzeit nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U1, U2, U3 und U4 aus. Die Störung dauert voraussichtlich bis 22:00 Uhr. Grund dafür ist eine Demonstration im Bereich der Ringstraße.\", \"lastupdate\": \"2026-10-09T13:34:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 71, D, 2: Demonstration\"}",
+      "title": "1, 71, D, 2: Demonstration",
+      "description": "Die Linie 1 fährt derzeit nicht zwischen Börse und Resselgasse. Die Linie 2 wird in beiden Richtungen zwischen Parlament, Volkstheater und Rathaus über die Reichsratsstraße umgeleitet. Die Linie D wird in Richtung Nußdorf zwischen Schwarzenbergplatz und Börse über Schwedenplatz umgeleitet, zusätzlich ist wegen Gleisbauarbeiten ein Betrieb zwischen Börse und Augasse nicht möglich. Die Linie 71 fährt derzeit nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U1, U2, U3 und U4 aus. Die Störung dauert voraussichtlich bis 22:00 Uhr. Grund dafür ist eine Demonstration im Bereich der Ringstraße.",
       "lines": [
         "71"
       ],
-      "lastupdate": "2026-10-09T13:04:00.000+0200"
+      "lastupdate": "2026-10-09T13:34:00.000+0200"
     }
   }
 }
