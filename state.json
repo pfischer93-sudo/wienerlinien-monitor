@@ -29,6 +29,15 @@
         "26A"
       ],
       "lastupdate": "2026-10-09T19:28:00.000+0200"
+    },
+    "I20261009-0043-F04": {
+      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-09T20:14:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Polizeieinsatz\"}",
+      "title": "71: Polizeieinsatz",
+      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-09T20:14:00.000+0200"
     }
   }
 }
