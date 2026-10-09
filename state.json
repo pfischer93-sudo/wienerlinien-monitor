@@ -21,14 +21,23 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261009-0019": {
-      "fingerprint": "{\"description\": \"Die Linie 1 fährt derzeit nicht zwischen Börse und Resselgasse. Die Linie 2 wird in beiden Richtungen zwischen Parlament, Volkstheater und Rathaus über die Reichsratsstraße umgeleitet. Die Linie D wird in Richtung Nußdorf zwischen Schwarzenbergplatz und Börse über Schwedenplatz umgeleitet, zusätzlich ist wegen Gleisbauarbeiten ein Betrieb zwischen Börse und Augasse nicht möglich. Die Linie 71 fährt derzeit nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U1, U2, U3 und U4 aus. Die Störung dauert voraussichtlich bis 22:00 Uhr. Grund dafür ist eine Demonstration im Bereich der Ringstraße.\", \"lastupdate\": \"2026-10-09T13:34:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 71, D, 2: Demonstration\"}",
-      "title": "1, 71, D, 2: Demonstration",
-      "description": "Die Linie 1 fährt derzeit nicht zwischen Börse und Resselgasse. Die Linie 2 wird in beiden Richtungen zwischen Parlament, Volkstheater und Rathaus über die Reichsratsstraße umgeleitet. Die Linie D wird in Richtung Nußdorf zwischen Schwarzenbergplatz und Börse über Schwedenplatz umgeleitet, zusätzlich ist wegen Gleisbauarbeiten ein Betrieb zwischen Börse und Augasse nicht möglich. Die Linie 71 fährt derzeit nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U1, U2, U3 und U4 aus. Die Störung dauert voraussichtlich bis 22:00 Uhr. Grund dafür ist eine Demonstration im Bereich der Ringstraße.",
+    "I20261009-0026": {
+      "fingerprint": "{\"description\": \"Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Linie 22A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.\", \"lastupdate\": \"2026-10-09T13:52:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A, 22A: Verkehrsüberlastung\"}",
+      "title": "16A, 22A: Verkehrsüberlastung",
+      "description": "Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Linie 22A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.",
+      "lines": [
+        "16A"
+      ],
+      "lastupdate": "2026-10-09T13:52:00.000+0200"
+    },
+    "I20261009-0019-F03": {
+      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-09T13:41:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Demonstration\"}",
+      "title": "71: Demonstration",
+      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "71"
       ],
-      "lastupdate": "2026-10-09T13:34:00.000+0200"
+      "lastupdate": "2026-10-09T13:41:00.000+0200"
     }
   }
 }
