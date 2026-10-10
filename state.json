@@ -22,13 +22,13 @@
       "lastupdate": "2026-09-26T13:51:00.000+0200"
     },
     "I20261010-0011": {
-      "fingerprint": "{\"description\": \"Derzeit sind alle Aufzüge in der Station außer Betrieb. Bitte benutzen Sie die benachbarten Stationen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-10-10T12:57:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Betriebsstörung\"}",
+      "fingerprint": "{\"description\": \"Derzeit sind alle Aufzüge in der Station Kardinal-Nagl-Platz außer Betrieb. Bitte benutzen Sie die benachbarten Stationen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-10-10T13:03:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Betriebsstörung\"}",
       "title": "U3: Betriebsstörung",
-      "description": "Derzeit sind alle Aufzüge in der Station außer Betrieb. Bitte benutzen Sie die benachbarten Stationen. Grund: Betriebsstörung.",
+      "description": "Derzeit sind alle Aufzüge in der Station Kardinal-Nagl-Platz außer Betrieb. Bitte benutzen Sie die benachbarten Stationen. Grund: Betriebsstörung.",
       "lines": [
         "U3"
       ],
-      "lastupdate": "2026-10-10T12:57:00.000+0200"
+      "lastupdate": "2026-10-10T13:03:00.000+0200"
     }
   }
 }
