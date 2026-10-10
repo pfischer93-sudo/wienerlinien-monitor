@@ -21,15 +21,6 @@
       ],
       "lastupdate": "2026-09-26T13:51:00.000+0200"
     },
-    "I20261010-0011": {
-      "fingerprint": "{\"description\": \"Derzeit sind alle Aufzüge in der Station Kardinal-Nagl-Platz außer Betrieb. Bitte benutzen Sie die benachbarten Stationen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-10-10T13:03:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Betriebsstörung\"}",
-      "title": "U3: Betriebsstörung",
-      "description": "Derzeit sind alle Aufzüge in der Station Kardinal-Nagl-Platz außer Betrieb. Bitte benutzen Sie die benachbarten Stationen. Grund: Betriebsstörung.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-10T13:03:00.000+0200"
-    },
     "I20261010-0012": {
       "fingerprint": "{\"description\": \"Die Züge der Linie D werden zwischen Absberggasse und Börse in beiden Richtungen ab Quartier Belvedere über die Linie O - Wien Mitte - Julius-Raab-Platz - Schwedenplatz und Schottenring umgeleitet. Die Züge der Linie 2 werden in beiden Richtungen zwischen Parlament, U Volkstheater und Schwedenplatz über Schottentor und Schottenring umgeleitet. In Richtung Dornbach kann die Haltestelle Schwedenplatz nicht eingehalten werden. Die Züge der Linie 71 fahren nur zwischen Kaiserebersdorf, Zinnergasse und St. Marx S und werden über die Linie 18 zur Schlachthausgasse umgeleitet. Die Busse der Linie 4A fahren nur zwischen Wittelsbachstraße und Lisztstraße. Die Linie 74A fährt nur zwischen St. Marx und Landstraße Weichen Sie ersatzweise auf die U-Bahn-Linien aus. Die Störung dauert voraussichtlich bis 16:30 Uhr. Grund dafür ist eine Demonstration im Bereich Karlsplatz, Innere Stadt und Ringstraße.\", \"lastupdate\": \"2026-10-10T13:44:00.000+0200\", \"lines\": [\"71\"], \"title\": \"D, 71, 2, 4A, 74A: Demonstration\"}",
       "title": "D, 71, 2, 4A, 74A: Demonstration",
