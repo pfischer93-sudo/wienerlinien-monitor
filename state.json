@@ -21,23 +21,14 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261011-0022": {
-      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-10-11T22:25:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Betriebsstörung\"}",
-      "title": "U1: Betriebsstörung",
-      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-11T22:25:00.000+0200"
-    },
-    "I20261011-0024": {
-      "fingerprint": "{\"description\": \"Linie 71: Derzeit kein Betrieb zwischen Schwarzenbergplatz und Enkplatz U, Grillgasse. Linie 74A: Betrieb zwischen Stubentor U und St. Marx ohne Einhaltung der Haltestellen Grasbergergasse und Hofmannsthalgasse Weichen Sie ersatzweise auf die Linien U3, D und 18 aus. Voraussichtliche Dauer: 23:30 Uhr. Grund: Feuerwehreinsatz im Bereich Rennweg # Grasbergergasse.\", \"lastupdate\": \"2026-10-11T22:55:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71, 74A: Feuerwehreinsatz\"}",
-      "title": "71, 74A: Feuerwehreinsatz",
-      "description": "Linie 71: Derzeit kein Betrieb zwischen Schwarzenbergplatz und Enkplatz U, Grillgasse. Linie 74A: Betrieb zwischen Stubentor U und St. Marx ohne Einhaltung der Haltestellen Grasbergergasse und Hofmannsthalgasse Weichen Sie ersatzweise auf die Linien U3, D und 18 aus. Voraussichtliche Dauer: 23:30 Uhr. Grund: Feuerwehreinsatz im Bereich Rennweg # Grasbergergasse.",
+    "I20261011-0024-F01": {
+      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-11T23:11:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Feuerwehreinsatz\"}",
+      "title": "71: Feuerwehreinsatz",
+      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "71"
       ],
-      "lastupdate": "2026-10-11T22:55:00.000+0200"
+      "lastupdate": "2026-10-11T23:11:00.000+0200"
     }
   }
 }
