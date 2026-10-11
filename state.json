@@ -29,6 +29,15 @@
         "U1"
       ],
       "lastupdate": "2026-10-11T22:25:00.000+0200"
+    },
+    "I20261011-0024": {
+      "fingerprint": "{\"description\": \"Linie 71: Derzeit kein Betrieb zwischen Schwarzenbergplatz und Enkplatz U, Grillgasse. Linie 74A: Betrieb zwischen Stubentor U und St. Marx ohne Einhaltung der Haltestellen Grasbergergasse und Hofmannsthalgasse Voraussichtliche Dauer: 23:30 Uhr. Grund: Feuerwehreinsatz im Bereich Rennweg # Carlbergergasse.\", \"lastupdate\": \"2026-10-11T22:49:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71, 74A: Feuerwehreinsatz\"}",
+      "title": "71, 74A: Feuerwehreinsatz",
+      "description": "Linie 71: Derzeit kein Betrieb zwischen Schwarzenbergplatz und Enkplatz U, Grillgasse. Linie 74A: Betrieb zwischen Stubentor U und St. Marx ohne Einhaltung der Haltestellen Grasbergergasse und Hofmannsthalgasse Voraussichtliche Dauer: 23:30 Uhr. Grund: Feuerwehreinsatz im Bereich Rennweg # Carlbergergasse.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-11T22:49:00.000+0200"
     }
   }
 }
