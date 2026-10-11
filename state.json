@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261011-0024-F01": {
-      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-11T23:11:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Feuerwehreinsatz\"}",
-      "title": "71: Feuerwehreinsatz",
-      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-10-11T23:11:00.000+0200"
     }
   }
 }
