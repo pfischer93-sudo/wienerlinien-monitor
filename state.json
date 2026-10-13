@@ -1,6 +1,15 @@
 {
   "version": 5,
   "messages": {
+    "I20261013-0023-F02": {
+      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-13T13:14:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Verkehrsunfall\"}",
+      "title": "11: Verkehrsunfall",
+      "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-13T13:14:00.000+0200"
+    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
@@ -10,14 +19,14 @@
       ],
       "lastupdate": "2026-09-26T13:51:00.000+0200"
     },
-    "I20261013-0023": {
-      "fingerprint": "{\"description\": \"Die Linie 6 wird in Richtung Geiereckstraße zwischen Burggasse, Stadthalle U und Quellenplatz über umgeleitet. Linie 11: Umleitung in Richtung Kaiserebersdorf, Zinnergasse zwischen Quellenplatz und Absberggasse über Hauptbahnhof S U. Voraussichtliche Dauer: 13:20 Uhr. Grund: Verkehrsunfall im Bereich Quellenstraße.\", \"lastupdate\": \"2026-10-13T13:04:00.000+0200\", \"lines\": [\"11\"], \"title\": \"6, 11: Verkehrsunfall\"}",
-      "title": "6, 11: Verkehrsunfall",
-      "description": "Die Linie 6 wird in Richtung Geiereckstraße zwischen Burggasse, Stadthalle U und Quellenplatz über umgeleitet. Linie 11: Umleitung in Richtung Kaiserebersdorf, Zinnergasse zwischen Quellenplatz und Absberggasse über Hauptbahnhof S U. Voraussichtliche Dauer: 13:20 Uhr. Grund: Verkehrsunfall im Bereich Quellenstraße.",
+    "I20261013-0026": {
+      "fingerprint": "{\"description\": \"Die Linie U3 fährt derzeit zwischen den Stationen Kendlerstraße und Hütteldorfer Straße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: 13:30 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Kendlerstraße.\", \"lastupdate\": \"2026-10-13T13:15:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
+      "title": "U3: Rettungseinsatz",
+      "description": "Die Linie U3 fährt derzeit zwischen den Stationen Kendlerstraße und Hütteldorfer Straße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: 13:30 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Kendlerstraße.",
       "lines": [
-        "11"
+        "U3"
       ],
-      "lastupdate": "2026-10-13T13:04:00.000+0200"
+      "lastupdate": "2026-10-13T13:15:00.000+0200"
     },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
@@ -29,6 +38,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261013-0025": {
+      "fingerprint": "{\"description\": \"Linie 1: Umleitung in Richtung Stefan-Fadinger-Platz Wende über Börse und Umleitung bis Resselgasse über Schwedenplatz U und Schwarzenbergplatz. Einstieg am Karlsplatz U (bei Linie 4A) möglich. Umleitung in Richtung Prater Hauptallee zwischen Karlsplatz U und Julius-Raab-Platz über Schwarzenbergplatz und Stubentor U. Fahrgäste zwischen Börse und Schwedenplatz mit dem Ziel Prater Hauptallee müssen am Julius-Raab-Platz in einen anderen Zug der Linie 1 umsteigen. Linie D: Umleitung der Züge im Abschnitt Absberggasse - Börse in beiden Richtungen zwischen Schwarzenbergplatz und Börse über Schwedenplatz U. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U2 und 2 aus. Voraussichtliche Dauer: 19:00 Uhr. Grund: Demonstration im Bereich Universitätsring.\", \"lastupdate\": \"2026-10-13T13:06:00.000+0200\", \"lines\": [\"71\"], \"title\": \"D, 1, 71: Demonstration\"}",
+      "title": "D, 1, 71: Demonstration",
+      "description": "Linie 1: Umleitung in Richtung Stefan-Fadinger-Platz Wende über Börse und Umleitung bis Resselgasse über Schwedenplatz U und Schwarzenbergplatz. Einstieg am Karlsplatz U (bei Linie 4A) möglich. Umleitung in Richtung Prater Hauptallee zwischen Karlsplatz U und Julius-Raab-Platz über Schwarzenbergplatz und Stubentor U. Fahrgäste zwischen Börse und Schwedenplatz mit dem Ziel Prater Hauptallee müssen am Julius-Raab-Platz in einen anderen Zug der Linie 1 umsteigen. Linie D: Umleitung der Züge im Abschnitt Absberggasse - Börse in beiden Richtungen zwischen Schwarzenbergplatz und Börse über Schwedenplatz U. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Weichen Sie ersatzweise auf die Linien U2 und 2 aus. Voraussichtliche Dauer: 19:00 Uhr. Grund: Demonstration im Bereich Universitätsring.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-13T13:06:00.000+0200"
     },
     "I20261013-0021": {
       "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.\", \"lastupdate\": \"2026-10-13T11:51:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Verspätungen\"}",
