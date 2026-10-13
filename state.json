@@ -38,6 +38,24 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261013-0010-F01": {
+      "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-13T08:24:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
+      "title": "U3: Rettungseinsatz",
+      "description": "Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-10-13T08:24:00.000+0200"
+    },
+    "I20261013-0011-F01": {
+      "fingerprint": "{\"description\": \"Linie 27: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-13T08:46:00.000+0200\", \"lines\": [\"27\"], \"title\": \"27: Stromstörung\"}",
+      "title": "27: Stromstörung",
+      "description": "Linie 27: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "27"
+      ],
+      "lastupdate": "2026-10-13T08:46:00.000+0200"
     }
   }
 }
