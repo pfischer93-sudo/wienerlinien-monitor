@@ -29,15 +29,6 @@
         "71"
       ],
       "lastupdate": "2026-10-13T13:06:00.000+0200"
-    },
-    "I20261013-0032-F01": {
-      "fingerprint": "{\"description\": \"Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-13T15:32:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Betriebsstörung\"}",
-      "title": "U1: Betriebsstörung",
-      "description": "Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-13T15:32:00.000+0200"
     }
   }
 }
