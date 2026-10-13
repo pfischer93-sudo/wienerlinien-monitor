@@ -29,6 +29,15 @@
         "71"
       ],
       "lastupdate": "2026-10-13T13:06:00.000+0200"
+    },
+    "I20261013-0038": {
+      "fingerprint": "{\"description\": \"Die Linie 26 fährt derzeit nur zwischen Kagran und Prinzgasse und weiter bis Aspern Nord. Voraussichtliche Dauer: 18:00 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Hausfeldstraße.\", \"lastupdate\": \"2026-10-13T17:24:00.000+0200\", \"lines\": [\"26\"], \"title\": \"26: Schadhaftes Fahrzeug\"}",
+      "title": "26: Schadhaftes Fahrzeug",
+      "description": "Die Linie 26 fährt derzeit nur zwischen Kagran und Prinzgasse und weiter bis Aspern Nord. Voraussichtliche Dauer: 18:00 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Hausfeldstraße.",
+      "lines": [
+        "26"
+      ],
+      "lastupdate": "2026-10-13T17:24:00.000+0200"
     }
   }
 }
