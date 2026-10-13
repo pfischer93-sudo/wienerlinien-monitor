@@ -30,15 +30,6 @@
       ],
       "lastupdate": "2026-10-13T13:06:00.000+0200"
     },
-    "I20261013-0030": {
-      "fingerprint": "{\"description\": \"Linie 71: Fahrtbehinderung in Richtung Kaiserebersdorf, Zinnergasse. Voraussichtliche Dauer: 15:20 Uhr. Grund: Verkehrsunfall im Bereich Rennweg 92.\", \"lastupdate\": \"2026-10-13T15:00:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Verkehrsunfall\"}",
-      "title": "71: Verkehrsunfall",
-      "description": "Linie 71: Fahrtbehinderung in Richtung Kaiserebersdorf, Zinnergasse. Voraussichtliche Dauer: 15:20 Uhr. Grund: Verkehrsunfall im Bereich Rennweg 92.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-10-13T15:00:00.000+0200"
-    },
     "I20261013-0026-F01": {
       "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-13T13:31:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
       "title": "U3: Rettungseinsatz",
