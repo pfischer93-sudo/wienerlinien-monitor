@@ -29,6 +29,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261013-0042": {
+      "fingerprint": "{\"description\": \"Linie 1: Fahrtbehinderung in Richtung Prater Hauptallee. Linie 2: Fahrtbehinderung in Richtung Dornbach. Linie D: Fahrtbehinderung in Richtung Augasse. Linie 71: Fahrtbehinderung in Richtung Schottenring U. Voraussichtliche Dauer: 20:10 Uhr. Grund: Verkehrsunfall im Bereich Kärntner Ring # Kärntner Straße.\", \"lastupdate\": \"2026-10-13T19:43:00.000+0200\", \"lines\": [\"71\"], \"title\": \"D, 1, 2, 71: Verkehrsunfall\"}",
+      "title": "D, 1, 2, 71: Verkehrsunfall",
+      "description": "Linie 1: Fahrtbehinderung in Richtung Prater Hauptallee. Linie 2: Fahrtbehinderung in Richtung Dornbach. Linie D: Fahrtbehinderung in Richtung Augasse. Linie 71: Fahrtbehinderung in Richtung Schottenring U. Voraussichtliche Dauer: 20:10 Uhr. Grund: Verkehrsunfall im Bereich Kärntner Ring # Kärntner Straße.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-13T19:43:00.000+0200"
     }
   }
 }
