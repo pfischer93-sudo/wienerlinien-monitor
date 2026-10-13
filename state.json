@@ -38,16 +38,6 @@
         "26"
       ],
       "lastupdate": "2026-10-13T18:44:00.000+0200"
-    },
-    "I20261013-0040": {
-      "fingerprint": "{\"description\": \"Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Linie 17A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Störung an einem Bahnübergang.\", \"lastupdate\": \"2026-10-13T18:01:00.000+0200\", \"lines\": [\"16A\", \"17A\"], \"title\": \"16A, 17A: Störung an einem Bahnübergang\"}",
-      "title": "16A, 17A: Störung an einem Bahnübergang",
-      "description": "Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Linie 17A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Störung an einem Bahnübergang.",
-      "lines": [
-        "16A",
-        "17A"
-      ],
-      "lastupdate": "2026-10-13T18:01:00.000+0200"
     }
   }
 }
