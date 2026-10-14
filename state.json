@@ -1,24 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261014-0022-F01": {
-      "fingerprint": "{\"description\": \"Linie 16A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-14T13:20:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A: Störung an einem Bahnübergang\"}",
-      "title": "16A: Störung an einem Bahnübergang",
-      "description": "Linie 16A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "16A"
-      ],
-      "lastupdate": "2026-10-14T13:20:00.000+0200"
-    },
-    "I20261014-0022-F02": {
-      "fingerprint": "{\"description\": \"Linie 17A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-14T13:20:00.000+0200\", \"lines\": [\"17A\"], \"title\": \"17A: Störung an einem Bahnübergang\"}",
-      "title": "17A: Störung an einem Bahnübergang",
-      "description": "Linie 17A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "17A"
-      ],
-      "lastupdate": "2026-10-14T13:20:00.000+0200"
-    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
@@ -38,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261014-0032": {
+      "fingerprint": "{\"description\": \"Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Quellenplatz. Linie 11: Umleitung in beiden Richtungen zwischen Quellenplatz und Absberggasse über Hauptbahnhof S U. Voraussichtliche Dauer: 15:15 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Reumannplatz U.\", \"lastupdate\": \"2026-10-14T14:58:00.000+0200\", \"lines\": [\"11\"], \"title\": \"6, 11: Rettungseinsatz\"}",
+      "title": "6, 11: Rettungseinsatz",
+      "description": "Linie 6: Betrieb nur zwischen Burggasse, Stadthalle U und Quellenplatz. Linie 11: Umleitung in beiden Richtungen zwischen Quellenplatz und Absberggasse über Hauptbahnhof S U. Voraussichtliche Dauer: 15:15 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Reumannplatz U.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-14T14:58:00.000+0200"
     }
   }
 }
