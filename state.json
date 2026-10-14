@@ -29,6 +29,24 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261014-0034": {
+      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz.\", \"lastupdate\": \"2026-10-14T15:38:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
+      "title": "U3: Rettungseinsatz",
+      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-10-14T15:38:00.000+0200"
+    },
+    "I20261014-0035": {
+      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.\", \"lastupdate\": \"2026-10-14T16:02:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Verspätungen\"}",
+      "title": "U1: Verspätungen",
+      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-14T16:02:00.000+0200"
     }
   }
 }
