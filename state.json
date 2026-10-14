@@ -20,24 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261014-0009-F01": {
-      "fingerprint": "{\"description\": \"Linie 16A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-14T08:00:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A: Störung an einem Bahnübergang\"}",
-      "title": "16A: Störung an einem Bahnübergang",
-      "description": "Linie 16A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "16A"
-      ],
-      "lastupdate": "2026-10-14T08:00:00.000+0200"
-    },
-    "I20261014-0009-F02": {
-      "fingerprint": "{\"description\": \"Linie 17A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-14T08:00:00.000+0200\", \"lines\": [\"17A\"], \"title\": \"17A: Störung an einem Bahnübergang\"}",
-      "title": "17A: Störung an einem Bahnübergang",
-      "description": "Linie 17A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "17A"
-      ],
-      "lastupdate": "2026-10-14T08:00:00.000+0200"
     }
   }
 }
