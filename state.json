@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261015-0017": {
+      "fingerprint": "{\"description\": \"Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Weiterfahrt bis Reumannplatz U. Weichen Sie ersatzweise auf die Linien U1, 15A, 16A, 65A, 66A, aus. Voraussichtliche Dauer: 12:15 Uhr . Grund: Rettungseinsatz im Bereich Troststraße # Van-der-Nüll-Gasse .\", \"lastupdate\": \"2026-10-15T11:38:00.000+0200\", \"lines\": [\"11\"], \"title\": \"O, 11: Rettungseinsatz\"}",
+      "title": "O, 11: Rettungseinsatz",
+      "description": "Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Weiterfahrt bis Reumannplatz U. Weichen Sie ersatzweise auf die Linien U1, 15A, 16A, 65A, 66A, aus. Voraussichtliche Dauer: 12:15 Uhr . Grund: Rettungseinsatz im Bereich Troststraße # Van-der-Nüll-Gasse .",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-15T11:38:00.000+0200"
     }
   }
 }
