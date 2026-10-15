@@ -29,33 +29,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261015-0007": {
-      "fingerprint": "{\"description\": \"Linie 12A: Unregelmäßige Intervalle in beiden Richtungen. Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Linie 35A: Unregelmäßige Intervalle in beiden Richtungen. Linie 40A: Unregelmäßige Intervalle in beiden Richtungen. Linie 63A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.\", \"lastupdate\": \"2026-10-15T08:31:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"12A, 35A, 63A, 16A, 40A: Verkehrsüberlastung\"}",
-      "title": "12A, 35A, 63A, 16A, 40A: Verkehrsüberlastung",
-      "description": "Linie 12A: Unregelmäßige Intervalle in beiden Richtungen. Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Linie 35A: Unregelmäßige Intervalle in beiden Richtungen. Linie 40A: Unregelmäßige Intervalle in beiden Richtungen. Linie 63A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.",
-      "lines": [
-        "16A"
-      ],
-      "lastupdate": "2026-10-15T08:31:00.000+0200"
-    },
-    "I20261015-0003-F01": {
-      "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-15T07:20:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Feuerwehreinsatz\"}",
-      "title": "U3: Feuerwehreinsatz",
-      "description": "Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-15T07:20:00.000+0200"
-    },
-    "I20261015-0011": {
-      "fingerprint": "{\"description\": \"Linie 1: Unregelmäßige Intervalle in beiden Richtungen. Linie 62: Unregelmäßige Intervalle in beiden Richtungen. Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.\", \"lastupdate\": \"2026-10-15T08:52:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 62, 71: Verkehrsüberlastung\"}",
-      "title": "1, 62, 71: Verkehrsüberlastung",
-      "description": "Linie 1: Unregelmäßige Intervalle in beiden Richtungen. Linie 62: Unregelmäßige Intervalle in beiden Richtungen. Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-10-15T08:52:00.000+0200"
     }
   }
 }
