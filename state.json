@@ -21,15 +21,6 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261015-0017-F02": {
-      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-15T12:09:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Rettungseinsatz\"}",
-      "title": "11: Rettungseinsatz",
-      "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "11"
-      ],
-      "lastupdate": "2026-10-15T12:09:00.000+0200"
-    },
     "I20261015-0021": {
       "fingerprint": "{\"description\": \"Linie 26A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsunfall.\", \"lastupdate\": \"2026-10-15T12:52:00.000+0200\", \"lines\": [\"26A\"], \"title\": \"26A: Verkehrsunfall\"}",
       "title": "26A: Verkehrsunfall",
