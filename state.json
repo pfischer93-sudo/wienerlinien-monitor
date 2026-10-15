@@ -30,14 +30,14 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261015-0003": {
-      "fingerprint": "{\"description\": \"Die Linie U3 fährt derzeit nur zwischen Simmering und Westbahnhof. Weichen Sie ersatzweise auf die Linien 9, 46, 52, 48A aus. Voraussichtliche Dauer: 08:00 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Johnstraße.\", \"lastupdate\": \"2026-10-15T06:38:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Feuerwehreinsatz\"}",
+    "I20261015-0003-F01": {
+      "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-15T07:20:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Feuerwehreinsatz\"}",
       "title": "U3: Feuerwehreinsatz",
-      "description": "Die Linie U3 fährt derzeit nur zwischen Simmering und Westbahnhof. Weichen Sie ersatzweise auf die Linien 9, 46, 52, 48A aus. Voraussichtliche Dauer: 08:00 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Johnstraße.",
+      "description": "Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "U3"
       ],
-      "lastupdate": "2026-10-15T06:38:00.000+0200"
+      "lastupdate": "2026-10-15T07:20:00.000+0200"
     }
   }
 }
