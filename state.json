@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261016-0029": {
-      "fingerprint": "{\"description\": \"Linie 1: Umleitung in beiden Richtungen zwischen Kliebergasse und Hintere Zollamtsstraße über Landstraße S U und Hauptbahnhof S U (Strecke Linien O und 18). Linie 2: Umleitung in beiden Richtungen zwischen Parlament, U Volkstheater und Schwedenplatz U über Schottentor - Schottenring. Haltestellen: Schwedenplatz U In Richtung Friedrich-Engels-Platz: Einstieg am gegenüberliegenden Gleis. Schwedenplatz U in Richtung Dornbach: Kein Halt möglich. Gredlerstraße: Kein Halt möglich. Parlament, U Volkstheater in Richtung Friedrich-Engels-Platz: Einstieg am Innenring (Haltestelle Richtung Dornbach). Parlament, U Volkstheater in Richtung Dornbach: Einstiegstelle direkt vor dem Parlament. Linie D: Kein Betrieb zwischen Börse und Schwarzenbergplatz. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Linie 5A: Betrieb nur zwischen Griegstraße und Karmeliterplatz. Linie 74A: Betrieb nur zwischen St. Marx S und Landstraße S U. Voraussichtliche Dauer: ca 19:30 Uhr. Grund: Demonstration im Bereich .\", \"lastupdate\": \"2026-10-16T15:25:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 2, D, 71, 5A, 74A: Demonstration\"}",
-      "title": "1, 2, D, 71, 5A, 74A: Demonstration",
-      "description": "Linie 1: Umleitung in beiden Richtungen zwischen Kliebergasse und Hintere Zollamtsstraße über Landstraße S U und Hauptbahnhof S U (Strecke Linien O und 18). Linie 2: Umleitung in beiden Richtungen zwischen Parlament, U Volkstheater und Schwedenplatz U über Schottentor - Schottenring. Haltestellen: Schwedenplatz U In Richtung Friedrich-Engels-Platz: Einstieg am gegenüberliegenden Gleis. Schwedenplatz U in Richtung Dornbach: Kein Halt möglich. Gredlerstraße: Kein Halt möglich. Parlament, U Volkstheater in Richtung Friedrich-Engels-Platz: Einstieg am Innenring (Haltestelle Richtung Dornbach). Parlament, U Volkstheater in Richtung Dornbach: Einstiegstelle direkt vor dem Parlament. Linie D: Kein Betrieb zwischen Börse und Schwarzenbergplatz. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Linie 5A: Betrieb nur zwischen Griegstraße und Karmeliterplatz. Linie 74A: Betrieb nur zwischen St. Marx S und Landstraße S U. Voraussichtliche Dauer: ca 19:30 Uhr. Grund: Demonstration im Bereich .",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-10-16T15:25:00.000+0200"
-    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
@@ -18,6 +9,24 @@
         "26E"
       ],
       "lastupdate": "2026-09-26T13:51:00.000+0200"
+    },
+    "I20261016-0020": {
+      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Alaudagasse und Troststraße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: Nicht absehbar. Grund: Weichenstörung im Bereich Alaudagasse.\", \"lastupdate\": \"2026-10-16T15:55:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Weichenstörung\"}",
+      "title": "U1: Weichenstörung",
+      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Alaudagasse und Troststraße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: Nicht absehbar. Grund: Weichenstörung im Bereich Alaudagasse.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-16T15:55:00.000+0200"
+    },
+    "I20261016-0029": {
+      "fingerprint": "{\"description\": \"Linie 1: Umleitung in beiden Richtungen zwischen Kliebergasse und Hintere Zollamtsstraße über Landstraße S U und Hauptbahnhof S U (Strecke Linien O und 18). Linie 2: Umleitung in beiden Richtungen zwischen Parlament, U Volkstheater und Schwedenplatz U über Schottentor - Schottenring. Haltestellen: Schwedenplatz U In Richtung Friedrich-Engels-Platz: Einstieg am gegenüberliegenden Gleis. Schwedenplatz U in Richtung Dornbach: Kein Halt möglich. Gredlerstraße: Kein Halt möglich. Parlament, U Volkstheater in Richtung Friedrich-Engels-Platz: Einstieg am Innenring (Haltestelle Richtung Dornbach). Parlament, U Volkstheater in Richtung Dornbach: Einstiegstelle direkt vor dem Parlament. Linie D: Kein Betrieb zwischen Börse und Schwarzenbergplatz. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Linie 74A: Betrieb nur zwischen St. Marx S und Landstraße S U. Voraussichtliche Dauer: ca 19:30 Uhr. Grund: Demonstration im Bereich Innere Stadt.\", \"lastupdate\": \"2026-10-16T16:12:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 2, D, 71, 74A: Demonstration\"}",
+      "title": "1, 2, D, 71, 74A: Demonstration",
+      "description": "Linie 1: Umleitung in beiden Richtungen zwischen Kliebergasse und Hintere Zollamtsstraße über Landstraße S U und Hauptbahnhof S U (Strecke Linien O und 18). Linie 2: Umleitung in beiden Richtungen zwischen Parlament, U Volkstheater und Schwedenplatz U über Schottentor - Schottenring. Haltestellen: Schwedenplatz U In Richtung Friedrich-Engels-Platz: Einstieg am gegenüberliegenden Gleis. Schwedenplatz U in Richtung Dornbach: Kein Halt möglich. Gredlerstraße: Kein Halt möglich. Parlament, U Volkstheater in Richtung Friedrich-Engels-Platz: Einstieg am Innenring (Haltestelle Richtung Dornbach). Parlament, U Volkstheater in Richtung Dornbach: Einstiegstelle direkt vor dem Parlament. Linie D: Kein Betrieb zwischen Börse und Schwarzenbergplatz. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Linie 74A: Betrieb nur zwischen St. Marx S und Landstraße S U. Voraussichtliche Dauer: ca 19:30 Uhr. Grund: Demonstration im Bereich Innere Stadt.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-16T16:12:00.000+0200"
     },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
@@ -47,15 +56,6 @@
         "71"
       ],
       "lastupdate": "2026-10-16T13:52:00.000+0200"
-    },
-    "I20261016-0020": {
-      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Alaudagasse und Troststraße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: 16:00 Uhr. Grund: Weichenstörung im Bereich Alaudagasse.\", \"lastupdate\": \"2026-10-16T14:53:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Weichenstörung\"}",
-      "title": "U1: Weichenstörung",
-      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Alaudagasse und Troststraße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: 16:00 Uhr. Grund: Weichenstörung im Bereich Alaudagasse.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-16T14:53:00.000+0200"
     }
   }
 }
