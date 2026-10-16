@@ -20,6 +20,24 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261016-0020": {
+      "fingerprint": "{\"description\": \"Derzeit können die Züge der Linie U1 die Station Alaudagasse in beiden Richtungen nicht einhalten. Weichen Sie ersatzweise auf die Linien 16A, 17A, 67A, 67B aus. Voraussichtliche Dauer: 14:00 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Alaudagasse.\", \"lastupdate\": \"2026-10-16T13:36:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Feuerwehreinsatz\"}",
+      "title": "U1: Feuerwehreinsatz",
+      "description": "Derzeit können die Züge der Linie U1 die Station Alaudagasse in beiden Richtungen nicht einhalten. Weichen Sie ersatzweise auf die Linien 16A, 17A, 67A, 67B aus. Voraussichtliche Dauer: 14:00 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Alaudagasse.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-16T13:36:00.000+0200"
+    },
+    "I20261016-0023": {
+      "fingerprint": "{\"description\": \"Linie 71: Kein Betrieb zwischen Enkplatz U, Grillgasse und St. Marx S. Weichen Sie ersatzweise auf die Linien U3 und 18 aus. Voraussichtliche Dauer: 13:55 Uhr. Grund: Verkehrsunfall im Bereich Simmeringer Hauptstraße 91.\", \"lastupdate\": \"2026-10-16T13:37:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Verkehrsunfall\"}",
+      "title": "71: Verkehrsunfall",
+      "description": "Linie 71: Kein Betrieb zwischen Enkplatz U, Grillgasse und St. Marx S. Weichen Sie ersatzweise auf die Linien U3 und 18 aus. Voraussichtliche Dauer: 13:55 Uhr. Grund: Verkehrsunfall im Bereich Simmeringer Hauptstraße 91.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-16T13:37:00.000+0200"
     }
   }
 }
