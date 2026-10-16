@@ -31,13 +31,13 @@
       "lastupdate": "2026-10-16T13:52:00.000+0200"
     },
     "I20261016-0020": {
-      "fingerprint": "{\"description\": \"Derzeit können die Züge der Linie U1 die Station Alaudagasse in beiden Richtungen nicht einhalten. Weichen Sie ersatzweise auf die Linien 16A, 17A, 67A, 67B aus. Voraussichtliche Dauer: 14:30 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Alaudagasse.\", \"lastupdate\": \"2026-10-16T13:57:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Feuerwehreinsatz\"}",
-      "title": "U1: Feuerwehreinsatz",
-      "description": "Derzeit können die Züge der Linie U1 die Station Alaudagasse in beiden Richtungen nicht einhalten. Weichen Sie ersatzweise auf die Linien 16A, 17A, 67A, 67B aus. Voraussichtliche Dauer: 14:30 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Alaudagasse.",
+      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Alaudagasse und Troststraße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: 16:00 Uhr. Grund: Weichenstörung im Bereich Alaudagasse.\", \"lastupdate\": \"2026-10-16T14:53:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Weichenstörung\"}",
+      "title": "U1: Weichenstörung",
+      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Alaudagasse und Troststraße in beiden Richtungen über Gleis 2. Voraussichtliche Dauer: 16:00 Uhr. Grund: Weichenstörung im Bereich Alaudagasse.",
       "lines": [
         "U1"
       ],
-      "lastupdate": "2026-10-16T13:57:00.000+0200"
+      "lastupdate": "2026-10-16T14:53:00.000+0200"
     }
   }
 }
