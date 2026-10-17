@@ -29,6 +29,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261017-0011": {
+      "fingerprint": "{\"description\": \"Linie 11: Fahrtbehinderung in Richtung Kaiserebersdorf, Zinnergasse. Linie O: Fahrtbehinderung in Richtung Bruno-Marek-Allee. Voraussichtliche Dauer: 12:05 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Laxenburger Straße / Troststraße.\", \"lastupdate\": \"2026-10-17T11:41:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11, O: Rettungseinsatz\"}",
+      "title": "11, O: Rettungseinsatz",
+      "description": "Linie 11: Fahrtbehinderung in Richtung Kaiserebersdorf, Zinnergasse. Linie O: Fahrtbehinderung in Richtung Bruno-Marek-Allee. Voraussichtliche Dauer: 12:05 Uhr. Grund: Rettungseinsatz im Haltestellenbereich Laxenburger Straße / Troststraße.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-17T11:41:00.000+0200"
     }
   }
 }
