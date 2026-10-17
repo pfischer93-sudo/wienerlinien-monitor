@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261017-0027": {
-      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.\", \"lastupdate\": \"2026-10-17T17:58:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Verunreinigung\"}",
-      "title": "U1: Verunreinigung",
-      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verunreinigung.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-17T17:58:00.000+0200"
     }
   }
 }
