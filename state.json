@@ -20,6 +20,15 @@
         "26E"
       ],
       "lastupdate": "2026-09-26T13:51:00.000+0200"
+    },
+    "I20261017-0006": {
+      "fingerprint": "{\"description\": \"Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.\", \"lastupdate\": \"2026-10-17T09:20:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Verspätungen\"}",
+      "title": "71: Verspätungen",
+      "description": "Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-17T09:20:00.000+0200"
     }
   }
 }
