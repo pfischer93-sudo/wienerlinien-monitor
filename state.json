@@ -20,6 +20,24 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261018-0002-F01": {
+      "fingerprint": "{\"description\": \"Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-18T05:26:00.000+0200\", \"lines\": [\"25\"], \"title\": \"25: Rettungseinsatz\"}",
+      "title": "25: Rettungseinsatz",
+      "description": "Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "25"
+      ],
+      "lastupdate": "2026-10-18T05:26:00.000+0200"
+    },
+    "I20261018-0002-F02": {
+      "fingerprint": "{\"description\": \"Linie 26: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-18T05:26:00.000+0200\", \"lines\": [\"26\"], \"title\": \"26: Rettungseinsatz\"}",
+      "title": "26: Rettungseinsatz",
+      "description": "Linie 26: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "26"
+      ],
+      "lastupdate": "2026-10-18T05:26:00.000+0200"
     }
   }
 }
