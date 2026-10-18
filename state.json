@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261018-0016": {
-      "fingerprint": "{\"description\": \"Die Linie 16A wird in Richtung Hetzendorf S zwischen Wagner-Schönkirch-Gasse und Inzersdorf, Kirchenplatz über Laxenburger Straße - Vorarlberger Allee - Richard-Strauss-Straße und Sterngasse umgeleitet. Die Linie 66A wird in Richtung Liesing zwischen Kornauthgasse und Sterngasse über Sibeliusstraße - Neilreichgasse und Otto-Probst-Straße umgeleitet. Voraussichtliche Dauer: 19:10 Uhr. Grund: Rettungseinsatz im Bereich Draschestraße 81.\", \"lastupdate\": \"2026-10-18T18:28:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A, 66A: Rettungseinsatz\"}",
-      "title": "16A, 66A: Rettungseinsatz",
-      "description": "Die Linie 16A wird in Richtung Hetzendorf S zwischen Wagner-Schönkirch-Gasse und Inzersdorf, Kirchenplatz über Laxenburger Straße - Vorarlberger Allee - Richard-Strauss-Straße und Sterngasse umgeleitet. Die Linie 66A wird in Richtung Liesing zwischen Kornauthgasse und Sterngasse über Sibeliusstraße - Neilreichgasse und Otto-Probst-Straße umgeleitet. Voraussichtliche Dauer: 19:10 Uhr. Grund: Rettungseinsatz im Bereich Draschestraße 81.",
-      "lines": [
-        "16A"
-      ],
-      "lastupdate": "2026-10-18T18:28:00.000+0200"
-    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
@@ -29,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261018-0016-F01": {
+      "fingerprint": "{\"description\": \"Linie 16A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-18T18:50:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A: Rettungseinsatz\"}",
+      "title": "16A: Rettungseinsatz",
+      "description": "Linie 16A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "16A"
+      ],
+      "lastupdate": "2026-10-18T18:50:00.000+0200"
     }
   }
 }
