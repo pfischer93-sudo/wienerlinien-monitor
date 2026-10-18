@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261018-0016": {
+      "fingerprint": "{\"description\": \"Linie 16A: Fahrtbehinderung in Richtung Hetzendorf S. Die Linie 66A wird in Richtung Liesing zwischen Kornauthgasse und Sterngasse über Sibeliusstraße - Neilreichgasse und Otto-Probst-Straße umgeleitet. Voraussichtliche Dauer: 18:35 Uhr. Grund: Rettungseinsatz im Bereich Draschestraße 81.\", \"lastupdate\": \"2026-10-18T18:01:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A, 66A: Rettungseinsatz\"}",
+      "title": "16A, 66A: Rettungseinsatz",
+      "description": "Linie 16A: Fahrtbehinderung in Richtung Hetzendorf S. Die Linie 66A wird in Richtung Liesing zwischen Kornauthgasse und Sterngasse über Sibeliusstraße - Neilreichgasse und Otto-Probst-Straße umgeleitet. Voraussichtliche Dauer: 18:35 Uhr. Grund: Rettungseinsatz im Bereich Draschestraße 81.",
+      "lines": [
+        "16A"
+      ],
+      "lastupdate": "2026-10-18T18:01:00.000+0200"
     }
   }
 }
