@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261018-0004": {
-      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-10-18T07:11:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Betriebsstörung\"}",
-      "title": "U1: Betriebsstörung",
-      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-18T07:11:00.000+0200"
     }
   }
 }
