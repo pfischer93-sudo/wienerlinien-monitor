@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261019-0051": {
-      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Polizeieinsatz.\", \"lastupdate\": \"2026-10-19T23:20:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Polizeieinsatz\"}",
-      "title": "U3: Polizeieinsatz",
-      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Polizeieinsatz.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-19T23:20:00.000+0200"
     }
   }
 }
