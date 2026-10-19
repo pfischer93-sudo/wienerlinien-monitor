@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261019-0003": {
+      "fingerprint": "{\"description\": \"Linie 71: Kein Betrieb zwischen Enkplatz U, Grillgasse und St. Marx S. Weichen Sie ersatzweise auf die Linien U3 und 18 aus. Voraussichtliche Dauer: 08:15 Uhr. Grund: Verkehrsunfall im Bereich Simmeringer Hauptstraße 60.\", \"lastupdate\": \"2026-10-19T07:37:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Verkehrsunfall\"}",
+      "title": "71: Verkehrsunfall",
+      "description": "Linie 71: Kein Betrieb zwischen Enkplatz U, Grillgasse und St. Marx S. Weichen Sie ersatzweise auf die Linien U3 und 18 aus. Voraussichtliche Dauer: 08:15 Uhr. Grund: Verkehrsunfall im Bereich Simmeringer Hauptstraße 60.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-19T07:37:00.000+0200"
     }
   }
 }
