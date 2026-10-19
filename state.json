@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261019-0008": {
-      "fingerprint": "{\"description\": \"Linie 17A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsunfall.\", \"lastupdate\": \"2026-10-19T10:49:00.000+0200\", \"lines\": [\"17A\"], \"title\": \"17A: Verkehrsunfall\"}",
-      "title": "17A: Verkehrsunfall",
-      "description": "Linie 17A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsunfall.",
-      "lines": [
-        "17A"
-      ],
-      "lastupdate": "2026-10-19T10:49:00.000+0200"
-    },
     "I20261019-0013": {
       "fingerprint": "{\"description\": \"Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsunfall.\", \"lastupdate\": \"2026-10-19T11:36:00.000+0200\", \"lines\": [\"16A\"], \"title\": \"16A: Verkehrsunfall\"}",
       "title": "16A: Verkehrsunfall",
