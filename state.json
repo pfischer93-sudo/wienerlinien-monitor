@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261020-0007": {
-      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.\", \"lastupdate\": \"2026-10-20T05:21:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Verspätungen\"}",
-      "title": "U3: Verspätungen",
-      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-20T05:21:00.000+0200"
-    },
     "I20261020-0009": {
       "fingerprint": "{\"description\": \"Linie 1: Unregelmäßige Intervalle in beiden Richtungen. Linie 2: Unregelmäßige Intervalle in beiden Richtungen. Linie D: Unregelmäßige Intervalle in beiden Richtungen. Linie 71: Unregelmäßige Intervalle in beiden Richtungen. Grund: Polizeieinsatz.\", \"lastupdate\": \"2026-10-20T05:49:00.000+0200\", \"lines\": [\"71\"], \"title\": \"D, 71, 1, 2: Polizeieinsatz\"}",
       "title": "D, 71, 1, 2: Polizeieinsatz",
@@ -38,15 +29,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261020-0008": {
-      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-10-20T05:23:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Betriebsstörung\"}",
-      "title": "U1: Betriebsstörung",
-      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-20T05:23:00.000+0200"
     }
   }
 }
