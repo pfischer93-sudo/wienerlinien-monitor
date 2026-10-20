@@ -1,6 +1,24 @@
 {
   "version": 5,
   "messages": {
+    "I20261020-0023-F01": {
+      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-20T10:16:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Verkehrsunfall\"}",
+      "title": "71: Verkehrsunfall",
+      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "71"
+      ],
+      "lastupdate": "2026-10-20T10:16:00.000+0200"
+    },
+    "I20261020-0023-F02": {
+      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-20T10:16:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Verkehrsunfall\"}",
+      "title": "11: Verkehrsunfall",
+      "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-20T10:16:00.000+0200"
+    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
@@ -29,16 +47,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261020-0023": {
-      "fingerprint": "{\"description\": \"Linie 11: Betrieb nur zwischen Otto-Probst-Platz und Fickeysstraße. Linie 71: Betrieb nur zwischen Schottenring U und Fickeysstraße. Ersatz: Linien 69A, 71A, 71B, und 73A. Voraussichtliche Dauer: 10:40 Uhr. Grund: Verkehrsunfall im Bereich Simmeringer Hauptstraße.\", \"lastupdate\": \"2026-10-20T09:45:00.000+0200\", \"lines\": [\"11\", \"71\"], \"title\": \"71, 11: Verkehrsunfall\"}",
-      "title": "71, 11: Verkehrsunfall",
-      "description": "Linie 11: Betrieb nur zwischen Otto-Probst-Platz und Fickeysstraße. Linie 71: Betrieb nur zwischen Schottenring U und Fickeysstraße. Ersatz: Linien 69A, 71A, 71B, und 73A. Voraussichtliche Dauer: 10:40 Uhr. Grund: Verkehrsunfall im Bereich Simmeringer Hauptstraße.",
-      "lines": [
-        "11",
-        "71"
-      ],
-      "lastupdate": "2026-10-20T09:45:00.000+0200"
     },
     "I20261020-0019-F01": {
       "fingerprint": "{\"description\": \"Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-20T08:33:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Schadhaftes Fahrzeug\"}",
