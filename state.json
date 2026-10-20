@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261020-0023-F01": {
-      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-20T10:16:00.000+0200\", \"lines\": [\"71\"], \"title\": \"71: Verkehrsunfall\"}",
-      "title": "71: Verkehrsunfall",
-      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-10-20T10:16:00.000+0200"
-    },
     "I20260925-0011": {
       "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
       "title": "26E: Gleisbauarbeiten",
@@ -20,13 +11,13 @@
       "lastupdate": "2026-09-26T13:51:00.000+0200"
     },
     "I20261020-0030": {
-      "fingerprint": "{\"description\": \"Linie U1: Fahrtbehinderung in Richtung Oberlaa. Voraussichtliche Dauer: 12:30 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Troststraße.\", \"lastupdate\": \"2026-10-20T12:03:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Feuerwehreinsatz\"}",
+      "fingerprint": "{\"description\": \"Die Linie U1 fährt derzeit zwischen den Stationen Reumannplatz und Altes Landgut in beiden Richtungen über Gleis 1.Voraussichtliche Dauer: 13:30 Uhr.Grund: Feuerwehreinsatz im Haltestellenbereich Troststraße.\", \"lastupdate\": \"2026-10-20T12:36:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Feuerwehreinsatz\"}",
       "title": "U1: Feuerwehreinsatz",
-      "description": "Linie U1: Fahrtbehinderung in Richtung Oberlaa. Voraussichtliche Dauer: 12:30 Uhr. Grund: Feuerwehreinsatz im Haltestellenbereich Troststraße.",
+      "description": "Die Linie U1 fährt derzeit zwischen den Stationen Reumannplatz und Altes Landgut in beiden Richtungen über Gleis 1.Voraussichtliche Dauer: 13:30 Uhr.Grund: Feuerwehreinsatz im Haltestellenbereich Troststraße.",
       "lines": [
         "U1"
       ],
-      "lastupdate": "2026-10-20T12:03:00.000+0200"
+      "lastupdate": "2026-10-20T12:36:00.000+0200"
     },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
