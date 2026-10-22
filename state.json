@@ -21,14 +21,14 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261022-0013": {
-      "fingerprint": "{\"description\": \"Linie U3: Streckenunterbrechung zwischen den Stationen Herrengasse und Landstraße, Bahnhof Wien Mitte. Bitte beachten Sie folgende Hinweise: - Pendelzug eingerichtet: Zwischen Herrengasse und Landstraße fährt ein Pendelzug in beiden Richtungen auf Gleis 2. - Umstieg erforderlich: In den Stationen Herrengasse und Landstraße müssen Sie den Zug verlassen und am gegenüberliegenden Gleis in den Anschlusszug umsteigen. - Bitte planen Sie mehr Zeit ein und weichen nach Möglichkeit auf andere Linien aus. Voraussichtliche Dauer: 08:40 Uhr. Grund: Gegenstände im Gleis im Haltestellenbereich Stephansplatz.\", \"lastupdate\": \"2026-10-22T08:00:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Gegenstände im Gleis\"}",
+    "I20261022-0013-F01": {
+      "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-22T08:25:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Gegenstände im Gleis\"}",
       "title": "U3: Gegenstände im Gleis",
-      "description": "Linie U3: Streckenunterbrechung zwischen den Stationen Herrengasse und Landstraße, Bahnhof Wien Mitte. Bitte beachten Sie folgende Hinweise: - Pendelzug eingerichtet: Zwischen Herrengasse und Landstraße fährt ein Pendelzug in beiden Richtungen auf Gleis 2. - Umstieg erforderlich: In den Stationen Herrengasse und Landstraße müssen Sie den Zug verlassen und am gegenüberliegenden Gleis in den Anschlusszug umsteigen. - Bitte planen Sie mehr Zeit ein und weichen nach Möglichkeit auf andere Linien aus. Voraussichtliche Dauer: 08:40 Uhr. Grund: Gegenstände im Gleis im Haltestellenbereich Stephansplatz.",
+      "description": "Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "U3"
       ],
-      "lastupdate": "2026-10-22T08:00:00.000+0200"
+      "lastupdate": "2026-10-22T08:25:00.000+0200"
     }
   }
 }
