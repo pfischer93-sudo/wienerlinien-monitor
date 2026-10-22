@@ -20,15 +20,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261022-0045-F01": {
-      "fingerprint": "{\"description\": \"Linie 26A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-22T19:59:00.000+0200\", \"lines\": [\"26A\"], \"title\": \"26A: Fremder Verkehrsunfall\"}",
-      "title": "26A: Fremder Verkehrsunfall",
-      "description": "Linie 26A: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "26A"
-      ],
-      "lastupdate": "2026-10-22T19:59:00.000+0200"
     }
   }
 }
