@@ -29,6 +29,15 @@
         "U3"
       ],
       "lastupdate": "2026-10-22T08:25:00.000+0200"
+    },
+    "I20261022-0018-F01": {
+      "fingerprint": "{\"description\": \"Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-22T09:28:00.000+0200\", \"lines\": [\"25\"], \"title\": \"25: Verkehrsunfall\"}",
+      "title": "25: Verkehrsunfall",
+      "description": "Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "25"
+      ],
+      "lastupdate": "2026-10-22T09:28:00.000+0200"
     }
   }
 }
