@@ -1,15 +1,6 @@
 {
   "version": 5,
   "messages": {
-    "I20261024-0025": {
-      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz im Haltestellenbereich Hütteldorfer Straße.\", \"lastupdate\": \"2026-10-24T16:19:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
-      "title": "U3: Rettungseinsatz",
-      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz im Haltestellenbereich Hütteldorfer Straße.",
-      "lines": [
-        "U3"
-      ],
-      "lastupdate": "2026-10-24T16:19:00.000+0200"
-    },
     "I20261024-0027": {
       "fingerprint": "{\"description\": \"Linie 1: Umleitung in Richtung Reumannplatz U Wende über Börse und Umleitung bis Resselgasse über Schwedenplatz U und Schwarzenbergplatz. Einstieg am Karlsplatz U (bei Linie 4A) möglich. Umleitung in Richtung Prater Hauptallee zwischen Karlsplatz U und Julius-Raab-Platz über Schwarzenbergplatz und Stubentor U. Fahrgäste zwischen Börse und Schwedenplatz mit dem Ziel Prater Hauptallee müssen am Julius-Raab-Platz in einen anderen Zug der Linie 1 umsteigen. Linie 2: Umleitung in beiden Richtungen zwischen Parlament, U Volkstheater und Rathaus U über die Reichsratsstraße. Richtung Dornbach: Haltestelle Parlament, U Volkstheater: Die Züge halten in der Haltestelle der Linien 46, 49 und 48A, die Haltestelle Parlament kann nicht eingehalten werden. Richtung Friedrich-Engels-Platz: Parlament, U Volkstheater: Die Züge halten in der Bedarfshaltestelle am Burgring nach der Bellariastraße. Linie D: Umleitung in beiden Richtungen zwischen Schwarzenbergplatz und Börse über Stubentor U und Schwedenplatz U. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Ersatz: Linien U1, U2, U3, U4 und U6. Voraussichtliche Dauer: 21:00 Uhr. Grund: Demonstration im Bereich Dr. Karl Renner-Ring.\", \"lastupdate\": \"2026-10-24T18:23:00.000+0200\", \"lines\": [\"71\"], \"title\": \"1, 2, D, 71: Demonstration\"}",
       "title": "1, 2, D, 71: Demonstration",
@@ -38,6 +29,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261024-0031-F01": {
+      "fingerprint": "{\"description\": \"Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-24T18:45:00.000+0200\", \"lines\": [\"U3\"], \"title\": \"U3: Polizeieinsatz\"}",
+      "title": "U3: Polizeieinsatz",
+      "description": "Linie U3: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-10-24T18:45:00.000+0200"
     },
     "I20261024-0029-F01": {
       "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-24T17:51:00.000+0200\", \"lines\": [\"11\"], \"title\": \"11: Polizeieinsatz\"}",
