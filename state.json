@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261025-0002": {
+      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz.\", \"lastupdate\": \"2026-10-25T00:30:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Rettungseinsatz\"}",
+      "title": "U1: Rettungseinsatz",
+      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-25T00:30:00.000+0200"
     }
   }
 }
