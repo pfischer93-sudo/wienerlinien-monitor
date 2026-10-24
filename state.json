@@ -38,6 +38,15 @@
         "U3"
       ],
       "lastupdate": "2026-10-24T18:45:00.000+0200"
+    },
+    "I20261024-0035": {
+      "fingerprint": "{\"description\": \"Linie U1: Fahrtbehinderung in Richtung Leopoldau S U. Voraussichtliche Dauer: 20:15 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Praterstern.\", \"lastupdate\": \"2026-10-24T20:03:00.000+0200\", \"lines\": [\"U1\"], \"title\": \"U1: Schadhaftes Fahrzeug\"}",
+      "title": "U1: Schadhaftes Fahrzeug",
+      "description": "Linie U1: Fahrtbehinderung in Richtung Leopoldau S U. Voraussichtliche Dauer: 20:15 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Praterstern.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-24T20:03:00.000+0200"
     }
   }
 }
