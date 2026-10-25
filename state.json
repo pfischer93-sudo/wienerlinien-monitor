@@ -10,14 +10,14 @@
       ],
       "lastupdate": "2026-10-25T16:52:00.000+0100"
     },
-    "I20261025-0019": {
-      "fingerprint": "{\"description\": \"Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Ersatz: Linien 7A, 14A, 15A, 16A, 65A und 66A. Voraussichtliche Dauer: Nicht absehbar. Grund: Gleisschaden im Bereich Neilreichgasse 97.\", \"lastupdate\": \"2026-10-25T15:30:00.000+0100\", \"lines\": [\"11\"], \"title\": \"11, O: Gleisschaden\"}",
-      "title": "11, O: Gleisschaden",
-      "description": "Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Ersatz: Linien 7A, 14A, 15A, 16A, 65A und 66A. Voraussichtliche Dauer: Nicht absehbar. Grund: Gleisschaden im Bereich Neilreichgasse 97.",
+    "I20261025-0019-F01": {
+      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-25T17:30:00.000+0100\", \"lines\": [\"11\"], \"title\": \"11: Gleisschaden\"}",
+      "title": "11: Gleisschaden",
+      "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "11"
       ],
-      "lastupdate": "2026-10-25T15:30:00.000+0100"
+      "lastupdate": "2026-10-25T17:30:00.000+0100"
     },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
