@@ -21,6 +21,15 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
+    "I20261025-0019": {
+      "fingerprint": "{\"description\": \"Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Ersatz: Linien 7A, 14A, 15A und 66A. Voraussichtliche Dauer: 16:30 Uhr. Grund: Gleisschaden im Bereich Neilreichgasse 97.\", \"lastupdate\": \"2026-10-25T14:52:00.000+0100\", \"lines\": [\"11\"], \"title\": \"11, O: Gleisschaden\"}",
+      "title": "11, O: Gleisschaden",
+      "description": "Linie 11: Betrieb nur zwischen Kaiserebersdorf, Zinnergasse und Quellenplatz. Linie O: Betrieb nur zwischen Bruno-Marek-Allee und Quellenplatz. Ersatz: Linien 7A, 14A, 15A und 66A. Voraussichtliche Dauer: 16:30 Uhr. Grund: Gleisschaden im Bereich Neilreichgasse 97.",
+      "lines": [
+        "11"
+      ],
+      "lastupdate": "2026-10-25T14:52:00.000+0100"
+    },
     "I20261025-0003": {
       "fingerprint": "{\"description\": \"Linie 1: Umleitung in beiden Richtungen zwischen Julius-Raab-Platz und Karlsplatz U über Stubentor U und Schwarzenbergplatz. Linie 2: Umleitung in beiden Richtungen zwischen Parlament, U Volkstheater und Rathaus U über die Reichsratsstraße. Richtung Dornbach: Haltestelle Parlament, U Volkstheater: Die Züge halten in der Haltestelle der Linie 46. Richtung Friedrich-Engels-Platz: Parlament, U Volkstheater: Die Züge halten in der Bedarfshaltestelle am Burgring nach der Bellariastraße. Linie D: Umleitung in beiden Richtungen zwischen Schwarzenbergplatz und Börse über Stubentor U und Schwedenplatz U. Linie 71: Betrieb nur zwischen Kaiserebersdorf und Schwarzenbergplatz. Beachten Sie die baustellenbedingten Streckensperren der Linien D und 1. Ersatz: Linien U1, U2, U3 und U4. Voraussichtliche Dauer: 18.00 Uhr. Grund: Veranstaltung im Bereich Rathausplatz.\", \"lastupdate\": \"2026-10-25T06:47:00.000+0100\", \"lines\": [\"71\"], \"title\": \"D, 1, 2, 71: Veranstaltung\"}",
       "title": "D, 1, 2, 71: Veranstaltung",
