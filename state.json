@@ -29,15 +29,6 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
-    },
-    "I20261026-0006": {
-      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in Richtung Oberlaa. Grund: Rettungseinsatz.\", \"lastupdate\": \"2026-10-26T09:09:00.000+0100\", \"lines\": [\"U1\"], \"title\": \"U1: Rettungseinsatz\"}",
-      "title": "U1: Rettungseinsatz",
-      "description": "Linie U1: Unregelmäßige Intervalle in Richtung Oberlaa. Grund: Rettungseinsatz.",
-      "lines": [
-        "U1"
-      ],
-      "lastupdate": "2026-10-26T09:09:00.000+0100"
     }
   }
 }
