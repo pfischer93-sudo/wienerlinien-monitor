@@ -21,14 +21,14 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261027-0008": {
-      "fingerprint": "{\"description\": \"Linie 27: Fahrtbehinderung in Richtung Strebersdorf, Meriangasse. Voraussichtliche Dauer: 10:30 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Koloniestraße.\", \"lastupdate\": \"2026-10-27T09:53:00.000+0100\", \"lines\": [\"27\"], \"title\": \"27: Verspätungen\"}",
+    "I20261027-0008-F01": {
+      "fingerprint": "{\"description\": \"Linie 27: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-10-27T10:03:00.000+0100\", \"lines\": [\"27\"], \"title\": \"27: Verspätungen\"}",
       "title": "27: Verspätungen",
-      "description": "Linie 27: Fahrtbehinderung in Richtung Strebersdorf, Meriangasse. Voraussichtliche Dauer: 10:30 Uhr. Grund: Schadhaftes Fahrzeug im Haltestellenbereich Koloniestraße.",
+      "description": "Linie 27: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "27"
       ],
-      "lastupdate": "2026-10-27T09:53:00.000+0100"
+      "lastupdate": "2026-10-27T10:03:00.000+0100"
     }
   }
 }
