@@ -29,6 +29,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261029-0044": {
+      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz im Haltestellenbereich Ottakring.\", \"lastupdate\": \"2026-10-29T23:29:00.000+0100\", \"lines\": [\"U3\"], \"title\": \"U3: Rettungseinsatz\"}",
+      "title": "U3: Rettungseinsatz",
+      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Rettungseinsatz im Haltestellenbereich Ottakring.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-10-29T23:29:00.000+0100"
     }
   }
 }
