@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261030-0006": {
+      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.\", \"lastupdate\": \"2026-10-30T05:56:00.000+0100\", \"lines\": [\"U1\"], \"title\": \"U1: Schadhaftes Fahrzeug\"}",
+      "title": "U1: Schadhaftes Fahrzeug",
+      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.",
+      "lines": [
+        "U1"
+      ],
+      "lastupdate": "2026-10-30T05:56:00.000+0100"
     }
   }
 }
