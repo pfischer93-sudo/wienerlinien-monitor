@@ -20,6 +20,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20261030-0012": {
+      "fingerprint": "{\"description\": \"Linie 26A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsunfall.\", \"lastupdate\": \"2026-10-30T08:32:00.000+0100\", \"lines\": [\"26A\"], \"title\": \"26A: Verkehrsunfall\"}",
+      "title": "26A: Verkehrsunfall",
+      "description": "Linie 26A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsunfall.",
+      "lines": [
+        "26A"
+      ],
+      "lastupdate": "2026-10-30T08:32:00.000+0100"
     }
   }
 }
