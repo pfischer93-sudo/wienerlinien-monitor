@@ -1,14 +1,59 @@
 {
   "version": 5,
   "messages": {
-    "I20260925-0011": {
-      "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
-      "title": "26E: Gleisbauarbeiten",
-      "description": "Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.",
+    "I20261119-0028-F02": {
+      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-19T16:22:00.000+0100\", \"lines\": [\"11\"], \"title\": \"11: Polizeieinsatz\"}",
+      "title": "11: Polizeieinsatz",
+      "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
-        "26E"
+        "11"
       ],
-      "lastupdate": "2026-09-26T13:51:00.000+0200"
+      "lastupdate": "2026-11-19T16:22:00.000+0100"
+    },
+    "I20261119-0027-F01": {
+      "fingerprint": "{\"description\": \"Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-19T17:02:00.000+0100\", \"lines\": [\"25\"], \"title\": \"25: Rettungseinsatz\"}",
+      "title": "25: Rettungseinsatz",
+      "description": "Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "25"
+      ],
+      "lastupdate": "2026-11-19T17:02:00.000+0100"
+    },
+    "I20261119-0027-F02": {
+      "fingerprint": "{\"description\": \"Linie 26: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-19T17:02:00.000+0100\", \"lines\": [\"26\"], \"title\": \"26: Rettungseinsatz\"}",
+      "title": "26: Rettungseinsatz",
+      "description": "Linie 26: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+      "lines": [
+        "26"
+      ],
+      "lastupdate": "2026-11-19T17:02:00.000+0100"
+    },
+    "I20261119-0034": {
+      "fingerprint": "{\"description\": \"Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.\", \"lastupdate\": \"2026-11-19T17:35:00.000+0100\", \"lines\": [\"16A\"], \"title\": \"16A: Verkehrsüberlastung\"}",
+      "title": "16A: Verkehrsüberlastung",
+      "description": "Linie 16A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.",
+      "lines": [
+        "16A"
+      ],
+      "lastupdate": "2026-11-19T17:35:00.000+0100"
+    },
+    "I20261119-0038": {
+      "fingerprint": "{\"description\": \"Linie 27A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.\", \"lastupdate\": \"2026-11-19T17:41:00.000+0100\", \"lines\": [\"27A\"], \"title\": \"27A: Verkehrsüberlastung\"}",
+      "title": "27A: Verkehrsüberlastung",
+      "description": "Linie 27A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Verkehrsüberlastung.",
+      "lines": [
+        "27A"
+      ],
+      "lastupdate": "2026-11-19T17:41:00.000+0100"
+    },
+    "I20261119-0031": {
+      "fingerprint": "{\"description\": \"Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.\", \"lastupdate\": \"2026-11-19T17:47:00.000+0100\", \"lines\": [\"U3\"], \"title\": \"U3: Betriebsstörung\"}",
+      "title": "U3: Betriebsstörung",
+      "description": "Linie U3: Unregelmäßige Intervalle in beiden Richtungen. Grund: Betriebsstörung.",
+      "lines": [
+        "U3"
+      ],
+      "lastupdate": "2026-11-19T17:47:00.000+0100"
     },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
@@ -20,6 +65,15 @@
         "27"
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
+    },
+    "I20260925-0011": {
+      "fingerprint": "{\"description\": \"Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.\", \"lastupdate\": \"2026-09-26T13:51:00.000+0200\", \"lines\": [\"26E\"], \"title\": \"26E: Gleisbauarbeiten\"}",
+      "title": "26E: Gleisbauarbeiten",
+      "description": "Die Kapazitäten der Ersatzlinie 26E sind nicht mit denen einer Straßenbahn vergleichbar. Weichen Sie daher nach Möglichkeit auf die U1 und die S-Bahn über Leopoldau S U oder Praterstern S U aus. Ab Kagraner Platz U können Sie auf die Linie 31A und ab Leopoldauer Straße auf die Linie 29A umsteigen. Alternativ können Sie auch mit der Linie 31A bis Siemensstraße S fahren und dort in die S-Bahn umsteigen. Außerdem können Sie ab Kagran U auf die Linie 27A und ab Leopoldauer Straße auf die Linie 29A umsteigen.",
+      "lines": [
+        "26E"
+      ],
+      "lastupdate": "2026-09-26T13:51:00.000+0200"
     }
   }
 }
