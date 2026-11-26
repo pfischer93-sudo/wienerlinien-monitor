@@ -21,14 +21,14 @@
       ],
       "lastupdate": "2026-09-29T13:24:00.000+0200"
     },
-    "I20261125-0041-F01": {
-      "fingerprint": "{\"description\": \"Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-25T23:28:00.000+0100\", \"lines\": [\"U1\"], \"title\": \"U1: Polizeieinsatz\"}",
-      "title": "U1: Polizeieinsatz",
-      "description": "Linie U1: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+    "I20261126-0004": {
+      "fingerprint": "{\"description\": \"Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.\", \"lastupdate\": \"2026-11-26T05:23:00.000+0100\", \"lines\": [\"U1\"], \"title\": \"U1: Verspätungen\"}",
+      "title": "U1: Verspätungen",
+      "description": "Linie U1: Unregelmäßige Intervalle in beiden Richtungen. Grund: Schadhaftes Fahrzeug.",
       "lines": [
         "U1"
       ],
-      "lastupdate": "2026-11-25T23:28:00.000+0100"
+      "lastupdate": "2026-11-26T05:23:00.000+0100"
     }
   }
 }
