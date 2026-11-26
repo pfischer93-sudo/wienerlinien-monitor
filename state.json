@@ -1,78 +1,23 @@
 {
   "version": 5,
   "messages": {
-    "I20261126-0074-F01-F03": {
-      "fingerprint": "{\"description\": \"Linie 27: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T14:54:00.000+0100\", \"lines\": [\"27\"], \"title\": \"27: Verkehrsunfall\"}",
-      "title": "27: Verkehrsunfall",
-      "description": "Linie 27: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
+    "I20261126-0115": {
+      "fingerprint": "{\"description\": \"Linie 26: Fahrtbehinderung in Richtung Kagran U. Voraussichtliche Dauer: 22:45 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Zanggasse.\", \"lastupdate\": \"2026-11-26T22:17:00.000+0100\", \"lines\": [\"26\"], \"title\": \"26: Schadhaftes Fahrzeug\"}",
+      "title": "26: Schadhaftes Fahrzeug",
+      "description": "Linie 26: Fahrtbehinderung in Richtung Kagran U. Voraussichtliche Dauer: 22:45 Uhr. Grund: Schadhaftes Fahrzeug im Bereich Zanggasse.",
       "lines": [
-        "27"
+        "26"
       ],
-      "lastupdate": "2026-11-26T14:54:00.000+0100"
+      "lastupdate": "2026-11-26T22:17:00.000+0100"
     },
-    "I20261126-0020": {
-      "fingerprint": "{\"description\": \"Linie 17A: Unregelmäßige Intervalle in beiden Richtungen. Linie 27A: Unregelmäßige Intervalle in beiden Richtungen. Linie 34A: Unregelmäßige Intervalle in beiden Richtungen. Linie 44A: Unregelmäßige Intervalle in beiden Richtungen. Linie 47A: Unregelmäßige Intervalle in beiden Richtungen. Linie 49A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Aktuelle Wetterlage.\", \"lastupdate\": \"2026-11-26T14:21:00.000+0100\", \"lines\": [\"17A\", \"27A\"], \"title\": \"17A, 27A, 34A, 44A, 47A, 49A: Aktuelle Wetterlage\"}",
-      "title": "17A, 27A, 34A, 44A, 47A, 49A: Aktuelle Wetterlage",
-      "description": "Linie 17A: Unregelmäßige Intervalle in beiden Richtungen. Linie 27A: Unregelmäßige Intervalle in beiden Richtungen. Linie 34A: Unregelmäßige Intervalle in beiden Richtungen. Linie 44A: Unregelmäßige Intervalle in beiden Richtungen. Linie 47A: Unregelmäßige Intervalle in beiden Richtungen. Linie 49A: Unregelmäßige Intervalle in beiden Richtungen. Grund: Aktuelle Wetterlage.",
-      "lines": [
-        "17A",
-        "27A"
-      ],
-      "lastupdate": "2026-11-26T14:21:00.000+0100"
-    },
-    "I20261126-0053-F02": {
-      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T13:05:00.000+0100\", \"lines\": [\"11\"], \"title\": \"11: Weichenstörung\"}",
+    "I20261126-0112-F01": {
+      "fingerprint": "{\"description\": \"Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T21:06:00.000+0100\", \"lines\": [\"11\"], \"title\": \"11: Weichenstörung\"}",
       "title": "11: Weichenstörung",
       "description": "Linie 11: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
       "lines": [
         "11"
       ],
-      "lastupdate": "2026-11-26T13:05:00.000+0100"
-    },
-    "I20261126-0060-F01": {
-      "fingerprint": "{\"description\": \"Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T13:17:00.000+0100\", \"lines\": [\"25\"], \"title\": \"25: Aktuelle Wetterlage\"}",
-      "title": "25: Aktuelle Wetterlage",
-      "description": "Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "25"
-      ],
-      "lastupdate": "2026-11-26T13:17:00.000+0100"
-    },
-    "I20261126-0040-F01": {
-      "fingerprint": "{\"description\": \"Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T11:45:00.000+0100\", \"lines\": [\"25\"], \"title\": \"25: Fahrzeug im Gleis\"}",
-      "title": "25: Fahrzeug im Gleis",
-      "description": "Linie 25: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "25"
-      ],
-      "lastupdate": "2026-11-26T11:45:00.000+0100"
-    },
-    "I20261126-0060-F02": {
-      "fingerprint": "{\"description\": \"Linie 26: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T13:17:00.000+0100\", \"lines\": [\"26\"], \"title\": \"26: Aktuelle Wetterlage\"}",
-      "title": "26: Aktuelle Wetterlage",
-      "description": "Linie 26: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "26"
-      ],
-      "lastupdate": "2026-11-26T13:17:00.000+0100"
-    },
-    "I20261126-0039-F02": {
-      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T11:33:00.000+0100\", \"lines\": [\"71\"], \"title\": \"71: Aktuelle Wetterlage\"}",
-      "title": "71: Aktuelle Wetterlage",
-      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-11-26T11:33:00.000+0100"
-    },
-    "I20261126-0079-F01": {
-      "fingerprint": "{\"description\": \"Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.\", \"lastupdate\": \"2026-11-26T15:08:00.000+0100\", \"lines\": [\"71\"], \"title\": \"71: Weichenstörung\"}",
-      "title": "71: Weichenstörung",
-      "description": "Linie 71: Nach einer Fahrtbehinderung kommt es zu unterschiedlichen Intervallen.",
-      "lines": [
-        "71"
-      ],
-      "lastupdate": "2026-11-26T15:08:00.000+0100"
+      "lastupdate": "2026-11-26T21:06:00.000+0100"
     },
     "I20260909-0007": {
       "fingerprint": "{\"description\": \"Linie 25: Betrieb nur zwischen Aspern, Oberdorfstraße und Josef-Baumann-Gasse. Weiterfahrt über Linie 27 bis Aspern Nord S U. Linie 26: Betrieb nur zwischen Hausfeldstraße U und Josef-Baumann-Gasse. Weiterfahrt nach Kagran U. Linie 27: Betrieb nur zwischen Strebersdorf, Meriangasse und Floridsdorf S U. Weichen Sie daher nach Möglichkeit großräumig auf die U1 und S-Bahn über Leopoldau S U oder Praterstern S U aus. Zwischen Kagraner Platz U und Floridsdorf S U können Sie auch auf die Linien 31A und anschließend 29A/29B oder 31A und S-Bahn ausweichen. Zwischen Kagran U und Floridsdorf S U können Sie auch auf die Linien 27A und anschließend 29A/29B ausweichen. Zwischen Floridsdorf S U und Josef-Baumann-Gasse fährt der Ersatzbus 26E. Beachten Sie, der 26E hat nicht die gleichen Kapazitäten wie eine Straßenbahn. Voraussichtliche Dauer: Ende 2026. Grund: Gleisbauarbeiten im Bereich Donaufelder Straße.\", \"lastupdate\": \"2026-09-29T13:24:00.000+0200\", \"lines\": [\"25\", \"26\", \"27\"], \"title\": \"25, 26, 27: Gleisbauarbeiten\"}",
